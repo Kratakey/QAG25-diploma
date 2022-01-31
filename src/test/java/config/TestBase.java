@@ -3,7 +3,7 @@ package config;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import drivers.WebDriverConfig;
+import drivers.*;
 import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.aeonbits.owner.ConfigFactory;
@@ -13,9 +13,13 @@ import org.junit.jupiter.api.BeforeEach;
 import pages.*;
 
 import static com.codeborne.selenide.Selenide.*;
+import static helpers.Attach.getSessionId;
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class TestBase extends TestData {
 
+    public static String deviceFarm = System.getProperty("deviceFarm", "browserstack");
+    public static CredentialsConfig credentials = ConfigFactory.create(CredentialsConfig.class);
     private static final WebDriverConfig config =
             ConfigFactory.create(WebDriverConfig.class, System.getProperties());
 
@@ -81,15 +85,37 @@ public class TestBase extends TestData {
     public static Specializations getSpecialization = new Specializations();
     public static String[] specializations = getSpecialization.specialization();
 
-    public static String [] dateTime = dateTimes();
+    public static String[] dateTime = dateTimes();
 
     @BeforeAll
     public static void init() {
-        Configuration.browser = config.getBrowserName();
+        if (!deviceFarm.equals("desktop")) {
+            Configuration.browserSize = null;
+        }
+        switch (deviceFarm) {
+            case "browserstack":
+                Configuration.browser = BrowserstackMobileDriver.class.getName();
+                break;
+            case "emulation":
+                Configuration.browser = EmulationMobileDriver.class.getName();
+                break;
+            case "local":
+                Configuration.browser = LocalMobileDriver.class.getName();
+                break;
+            case "selenoid":
+                Configuration.browser = SelenoidMobileDriver.class.getName();
+                break;
+            case "desktop":
+                Configuration.browser = config.getBrowserName();
+                Configuration.browserSize = config.getBrowserSize();
+                break;
+            default:
+                fail();
+                break;
+        }
         if (!config.getBrowserVersion().equals("")) {
             Configuration.browserVersion = config.getBrowserVersion();
         }
-        Configuration.browserSize = config.getBrowserSize();
         if (!config.getRemote().equals("")) {
             Configuration.remote = config.getRemote();
         }
@@ -97,24 +123,31 @@ public class TestBase extends TestData {
         Configuration.headless = config.getHeadless();
         Configuration.browserCapabilities.setCapability("enableVNC", config.getVNC());
         Configuration.browserCapabilities.setCapability("enableVideo", config.getVideo());
-        System.setProperty("chromeoptions.prefs","intl.accept_languages=en");
+        System.setProperty("chromeoptions.prefs", "intl.accept_languages=en");
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         setTestData();
     }
 
     @BeforeEach
     public void setupConfig() {
+        if (!deviceFarm.equals(null)) {
+            open();
+        }
         setRandomData();
     }
 
     @AfterEach
     public void tearDown() {
+        String sessionId = getSessionId();
         if (WebDriverRunner.hasWebDriverStarted()) {
             Attach.screenshotAs("Last screenshot");
             Attach.pageSource();
             Attach.browserConsoleLogs();
 //            Attach.addVideo(); //todo
             closeWebDriver();
+            if (!deviceFarm.equals("local")) {
+                Attach.attachVideo(sessionId);
+            }
         }
     }
 }

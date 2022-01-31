@@ -12,6 +12,7 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
+import static config.TestBase.deviceFarm;
 import static org.openqa.selenium.logging.LogType.BROWSER;
 
 public class Attach {
@@ -30,6 +31,10 @@ public class Attach {
         return ((TakesScreenshot) getWebDriver()).getScreenshotAs(OutputType.BYTES);
     }
 
+    public static String getSessionId() {
+        return ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
+    }
+
     public static void browserConsoleLogs() {
         if (!Configuration.browser.equals("safari")) {
             attachAsText(
@@ -38,28 +43,30 @@ public class Attach {
             );
         }
     }
-/* //todo
+
     @Attachment(value = "Video", type = "text/html", fileExtension = ".html")
-    public static String addVideo() {
+    public static String attachVideo(String sessionId) {
         return "<html><body><video width='100%' height='100%' controls autoplay><source src='"
-                + getVideoUrl(getSessionId())
+                + getVideoUrl(sessionId)
                 + "' type='video/mp4'></video></body></html>";
     }
 
-    public static URL getVideoUrl(String sessionId) {
-        String videoUrl = "https://maxi-booking.github.io/video/" + sessionId + ".mp4";
+    private static String getVideoUrl(String sessionId) {
 
+        if(deviceFarm.equals("browserstack")) {
+            return BrowserstackVideo.videoUrl(sessionId);
+        } else if(deviceFarm.equals("selenoid")) {
+            return getSelenoidVideoUrl(sessionId);
+        }
+        return null;
+    }
+
+    public static String getSelenoidVideoUrl(String sessionId) {
         try {
-            return new URL(videoUrl);
+            return new URL("https://selenoid.autotests.cloud/video/" + sessionId + ".mp4") + "";
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
         return null;
     }
-
-    public static String getSessionId() {
-        return ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
-    }
-
- */
 }

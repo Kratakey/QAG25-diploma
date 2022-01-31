@@ -24,6 +24,7 @@ allure {
 
 dependencies {
     testImplementation(
+            "io.appium:java-client:7.6.0",
             "com.fasterxml.jackson.core:jackson-databind:2.11.2",
             "org.assertj:assertj-core:3.21.0",
             'org.aspectj:aspectjweaver:1.9.7',

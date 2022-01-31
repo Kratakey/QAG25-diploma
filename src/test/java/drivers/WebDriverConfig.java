@@ -6,9 +6,18 @@ import org.aeonbits.owner.Config;
 @Config.LoadPolicy(Config.LoadType.FIRST)
 @Config.Sources({
         "classpath:config/${environment}.properties",
-        "classpath:config/local_chrome.properties"
+        "classpath:config/local_chrome.properties",
+        "classpath:config/${deviceFarm}.properties",
+        "classpath:config/local.properties",
+        "classpath:config/browserstack.properties",
+        "classpath:config/selenoid.properties",
+        "classpath:config/emulation.properties"
 })
 public interface WebDriverConfig extends Config {
+
+    @Key("deviceFarm")
+    @DefaultValue("desktop")
+    String getDeviceFarm();
 
     @Key("browserName")
     @DefaultValue("chrome")
