@@ -62,4 +62,4 @@ jobs:
           authToken: ${{secrets.GITHUB_TOKEN}}
           context: 'Test report'
           state: 'success'
-          target_url: https://maxi-booking.github.io/d8base-func-test/${{ github.run_number }}
+          target_url: https://kratakey.github.io/d8base-func-test/${{ github.run_number }}
