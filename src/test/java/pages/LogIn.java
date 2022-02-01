@@ -9,12 +9,10 @@ import helpers.Attach;
 import io.qameta.allure.Step;
 
 import java.time.Duration;
-import java.util.concurrent.atomic.AtomicReference;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selenide.open;
 import static helpers.SelectableModal.selectModal;
 import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.fail;

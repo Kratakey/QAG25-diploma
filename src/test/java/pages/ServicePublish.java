@@ -16,6 +16,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static helpers.SelectableModal.selectModal;
 import static helpers.ServiceDuration.getDuration;
+import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.fail;
 
 public class ServicePublish extends config.TestBase {
@@ -315,7 +316,16 @@ public class ServicePublish extends config.TestBase {
     }
 
     public void clickSeventhStep() {
-        $("app-service-publish-step-seven").$("ion-button[type='submit']").scrollIntoView(false).click();
+        step("Seventh step, click 'Continue'", () -> {
+        $("app-service-publish-step-seven ion-button[type='submit']").scrollIntoView(false).click();
+        });
+    }
+
+    public void verifySeventhStepContinueIsNotClickable() {
+        step("Seventh step, 'Continue' should not be clickable", () -> {
+        $("app-service-publish-step-seven ion-button[type='submit']").shouldHave(cssClass("button-disabled"));
+        $("app-service-publish-step-seven ion-button[type='submit'][aria-disabled='true']").should(exist);
+        });
     }
 
     @Step("Verify data")
@@ -515,19 +525,19 @@ public class ServicePublish extends config.TestBase {
         minPrice = PriceFormatter.addSpaces(minPrice);
         maxPrice = PriceFormatter.addSpaces(maxPrice);
         if (currency == cad && value.contains("$")) {
-            $("app-service-publish-final-step app-price").shouldHave(text(minPrice + " $ — " + maxPrice));
+            $("app-service-publish-final-step app-price").shouldHave(text(minPrice + " — " + maxPrice + " $"));
             return;
         }
         if (currency == eur && value.contains("€")) {
-            $("app-service-publish-final-step app-price").shouldHave(text(minPrice + " € — " + maxPrice));
+            $("app-service-publish-final-step app-price").shouldHave(text(minPrice + " — " + maxPrice + " €"));
             return;
         }
         if (currency == rub && value.contains("₽")) {
-            $("app-service-publish-final-step app-price").shouldHave(text(minPrice + " ₽ — " + maxPrice));
+            $("app-service-publish-final-step app-price").shouldHave(text(minPrice + " — " + maxPrice + " ₽"));
             return;
         }
         if (currency == usd && value.contains("$")) {
-            $("app-service-publish-final-step app-price").shouldHave(text(minPrice + " $ — " + maxPrice));
+            $("app-service-publish-final-step app-price").shouldHave(text(minPrice + " — " + maxPrice + " $"));
             return;
         }
         fail();
