@@ -16,8 +16,15 @@
 
 `./gradle clean test -DbaseUrl=https://app.maxibooking.ru/ -DbrowserName=chrome`
 
+###Задачи:
+* `test` - запуск по-умолчанию
+* `desktop` - запуск desktop тестов с web-драйвером
+* `local` - запуск mobile тестов локально на реальном устройстве
+* `emulation` - запуск mobile тестов локально на VM
+* `selenoid` - запуск mobile удаленно в Selenoid
+* `browserstack` - запуск mobile удаленно в Browserstack
 
-###Доступные параметры: 
+###Доступные параметры для (использовать только для desktop запуска):
 
 * `browserName` - название браузера, default: `chrome` 
 
@@ -38,8 +45,3 @@
 * `enableVideo` - нужно для записи видео тестов //todo, default: `true`
 
 браузеры: `chrome`, `safari`, `firefox`, `legacy_firefox`, `ie`, `opera`, `edge`.
-
-
-###После окончания тестов:
-
-`./gradle allureServe` для отчетов.

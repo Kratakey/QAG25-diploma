@@ -51,7 +51,11 @@ tasks.withType(JavaCompile) {
 
 tasks.withType(Test) {
     systemProperties(System.getProperties())
-    useJUnitPlatform()
+    useJUnitPlatform {
+        includeTags 'desktop'
+        excludeTags 'browserstack_android'
+        excludeTags 'selenide_android'
+    }
 
     testLogging {
         lifecycle {
@@ -60,4 +64,58 @@ tasks.withType(Test) {
             exceptionFormat "short"
         }
     }
+    systemProperty "deviceFarm", "desktop"
+}
+
+task desktop(type: Test) {
+    systemProperties(System.getProperties())
+    useJUnitPlatform {
+        includeTags 'desktop'
+        excludeTags 'browserstack_android'
+        excludeTags 'selenide_android'
+    }
+    testLogging {
+        lifecycle {
+//            events "started", "failed"
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
+    systemProperty "deviceFarm", "desktop"
+}
+
+task local(type: Test) {
+    useJUnitPlatform {
+        includeTags 'selenide_android'
+        excludeTags 'browserstack_android'
+        excludeTags 'desktop'
+    }
+    systemProperty "deviceFarm", "local"
+}
+
+task emulation(type: Test) {
+    useJUnitPlatform {
+        includeTags 'selenide_android'
+        excludeTags 'browserstack_android'
+        excludeTags 'desktop'
+    }
+    systemProperty "deviceFarm", "emulation"
+}
+
+task selenoid(type: Test) {
+    useJUnitPlatform {
+        includeTags 'selenide_android'
+        excludeTags 'browserstack_android'
+        excludeTags 'desktop'
+    }
+    systemProperty "deviceFarm", "selenoid"
+}
+
+task browserstack(type: Test) {
+    useJUnitPlatform {
+        includeTags 'browserstack_android'
+        excludeTags 'selenide_android'
+        excludeTags 'desktop'
+    }
+    systemProperty "deviceFarm", "browserstack"
 }

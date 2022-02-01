@@ -1,4 +1,4 @@
-package mobile;
+package mobileTests;
 
 import com.codeborne.selenide.Condition;
 import config.TestBase;

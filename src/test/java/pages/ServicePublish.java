@@ -16,7 +16,6 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static helpers.SelectableModal.selectModal;
 import static helpers.ServiceDuration.getDuration;
-import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.fail;
 
 public class ServicePublish extends config.TestBase {
@@ -332,10 +331,19 @@ public class ServicePublish extends config.TestBase {
                 serviceDurationHours = Long.toString(serviceDurationHoursLong),
                 serviceDurationMinutes = Long.toString(serviceDurationMinutesLong);
 
-        if (serviceTotalDurationLong > 1440) {
-            $("app-duration-viewer").shouldHave(text(serviceDurationDays), text(serviceDurationHours), text(serviceDurationMinutes));
-        } else if (serviceTotalDurationLong > 60) {
-            $("app-duration-viewer").shouldHave(text(serviceDurationHours), text(serviceDurationMinutes));
+        if (serviceTotalDurationLong >= 1440) {
+            $("app-duration-viewer").shouldHave(text(serviceDurationDays));
+            if (serviceDurationHoursLong > 0) {
+                $("app-duration-viewer").shouldHave(text(serviceDurationHours));
+            }
+            if (serviceDurationMinutesLong > 0) {
+                $("app-duration-viewer").shouldHave(text(serviceDurationMinutes));
+            }
+        } else if (serviceTotalDurationLong >= 60) {
+            $("app-duration-viewer").shouldHave(text(serviceDurationHours));
+            if (serviceDurationMinutesLong > 0) {
+                $("app-duration-viewer").shouldHave(text(serviceDurationMinutes));
+            }
         } else {
             $("app-duration-viewer").shouldHave(text(serviceDurationMinutes));
         }
@@ -360,10 +368,19 @@ public class ServicePublish extends config.TestBase {
         System.out.println(serviceDurationHours + " hours");
         System.out.println(serviceDurationMinutes + " minutes");
 
-        if (serviceTotalDurationLong > 1440) {
-            $("app-duration-viewer").shouldHave(text(serviceDurationDays), text(serviceDurationHours), text(serviceDurationMinutes));
-        } else if (serviceTotalDurationLong > 60) {
-            $("app-duration-viewer").shouldHave(text(serviceDurationHours), text(serviceDurationMinutes));
+        if (serviceTotalDurationLong >= 1440) {
+            $("app-duration-viewer").shouldHave(text(serviceDurationDays));
+            if (serviceDurationHoursLong > 0) {
+                $("app-duration-viewer").shouldHave(text(serviceDurationHours));
+            }
+            if (serviceDurationMinutesLong > 0) {
+                $("app-duration-viewer").shouldHave(text(serviceDurationMinutes));
+            }
+        } else if (serviceTotalDurationLong >= 60) {
+            $("app-duration-viewer").shouldHave(text(serviceDurationHours));
+            if (serviceDurationMinutesLong > 0) {
+                $("app-duration-viewer").shouldHave(text(serviceDurationMinutes));
+            }
         } else {
             $("app-duration-viewer").shouldHave(text(serviceDurationMinutes));
         }

@@ -1,11 +1,13 @@
-package tests.regressionTests;
+package desktopTests.regressionTests;
 
 import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static helpers.RegressionTestsHelpers.*;
 
+@Tag("desktop")
 public class UserProfileTests extends config.TestBase {
     @Test
     @Feature("Profile")

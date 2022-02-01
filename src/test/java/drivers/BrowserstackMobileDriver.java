@@ -8,7 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import static mobile.config.TestBase.credentials;
+import static config.TestBase.credentials;
 
 public class BrowserstackMobileDriver implements WebDriverProvider {
 

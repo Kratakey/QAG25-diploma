@@ -91,12 +91,13 @@ public class TestBase extends TestData {
     public static void init() {
         if (!deviceFarm.equals("desktop")) {
             Configuration.browserSize = null;
+            Configuration.startMaximized = config.getStartMaximized();
         }
         switch (deviceFarm) {
             case "browserstack":
                 Configuration.browser = BrowserstackMobileDriver.class.getName();
                 break;
-            case "emulation":
+            case "mobile":
                 Configuration.browser = EmulationMobileDriver.class.getName();
                 break;
             case "local":
@@ -130,7 +131,7 @@ public class TestBase extends TestData {
 
     @BeforeEach
     public void setupConfig() {
-        if (!deviceFarm.equals(null)) {
+        if (!deviceFarm.equals("desktop")) {
             open();
         }
         setRandomData();
@@ -138,14 +139,19 @@ public class TestBase extends TestData {
 
     @AfterEach
     public void tearDown() {
-        String sessionId = getSessionId();
+        String sessionId = null;
+        if (!deviceFarm.equals("desktop")) {
+            sessionId = getSessionId();
+        }
         if (WebDriverRunner.hasWebDriverStarted()) {
             Attach.screenshotAs("Last screenshot");
             Attach.pageSource();
-            Attach.browserConsoleLogs();
+            if (deviceFarm.equals("desktop")) {
+                Attach.browserConsoleLogs();
+            }
 //            Attach.addVideo(); //todo
             closeWebDriver();
-            if (!deviceFarm.equals("local")) {
+            if (!deviceFarm.equals("local") && !deviceFarm.equals("desktop")) {
                 Attach.attachVideo(sessionId);
             }
         }

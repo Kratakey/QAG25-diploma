@@ -6,12 +6,7 @@ import org.aeonbits.owner.Config;
 @Config.LoadPolicy(Config.LoadType.FIRST)
 @Config.Sources({
         "classpath:config/${environment}.properties",
-        "classpath:config/local_chrome.properties",
-        "classpath:config/${deviceFarm}.properties",
-        "classpath:config/local.properties",
-        "classpath:config/browserstack.properties",
-        "classpath:config/selenoid.properties",
-        "classpath:config/emulation.properties"
+        "classpath:config/local_chrome.properties"
 })
 public interface WebDriverConfig extends Config {
 
@@ -38,6 +33,10 @@ public interface WebDriverConfig extends Config {
     @Key("timeout")
     @DefaultValue("10000")
     long getTimeout();
+
+    @Key("startMaximized")
+    @DefaultValue("false")
+    boolean getStartMaximized();
 
     @Key("baseUrl")
     @DefaultValue("https://app.maxibooking.ru")

@@ -1,12 +1,14 @@
-package tests.regressionTests;
+package desktopTests.regressionTests;
 
 import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.*;
 import static helpers.RegressionTestsHelpers.*;
 
+@Tag("desktop")
 public class BookingTests extends config.TestBase {
     @Test
     @Feature("Booking")
@@ -56,7 +58,7 @@ public class BookingTests extends config.TestBase {
         bkn.acceptTimeSelection();
         bkn.acceptConfirmation();
         bkn.fillOrderForAPName(userFirstName);
-        bkn.fillOrderForAPSurname(userFirstName);
+        bkn.fillOrderForAPSurname(userLastName);
         bkn.fillOrderForAPEmail(userEmailRandom);
         bkn.fillOrderForAPPhoneNumber(userCountry, userPhoneNumber);
         bkn.placeOrder();
@@ -71,18 +73,12 @@ public class BookingTests extends config.TestBase {
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Booking: a service for another person")
     void t00002() {
-        serviceReadyAPI();
+        serviceRegisterAPI(userRegisterAPI());
 
         String service = serviceNameRandom;
-
-        log.forceLogOut();
-        closeWindow();
         setRandomData();
-        log.forceMainPage();
 
-        userRegisterUI();
-        log.forceMainPage();
-        log.forceEN();
+        userReadyAPI();
         sideMenu.clickSearch();
 
         search.closeAllChips();
@@ -96,7 +92,7 @@ public class BookingTests extends config.TestBase {
         bkn.acceptConfirmation();
         bkn.clickOrderForAnotherPerson();
         bkn.fillOrderForAPName(userFirstName);
-        bkn.fillOrderForAPSurname(userFirstName);
+        bkn.fillOrderForAPSurname(userLastName);
         bkn.fillOrderForAPEmail(userEmailRandom);
         bkn.fillOrderForAPPhoneNumber(userCountry, userPhoneNumber);
         bkn.placeOrder();
