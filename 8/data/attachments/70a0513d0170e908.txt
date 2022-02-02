@@ -1,0 +1,1 @@
+[2022-02-02T11:30:39+0000] [SEVERE] https://app.maxibooking.ru/ - Failed to load resource: the server responded with a status of 500 ()

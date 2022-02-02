@@ -1,0 +1,315 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should not be visible {app-timetable-add-time-popover}\nElement: '<app-timetable-add-time-popover _nghost-gsj-c105 class=\"popover-viewport sc-ion-popover-md\">Choose day\nMO\nTU\nWE\nTH\nFR\nSA\nSU</app-timetable-add-time-popover>'\nActual value: visible:true\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801191292.0.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801191292.0.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Basic positive service publishing, service location: Online",
+        "uid" : "9ec30c839487f3c8",
+        "parentUid" : "3f335bb691d26fd5beea756fc299c0f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801158890,
+          "stop" : 1643801192012,
+          "duration" : 33122
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f335bb691d26fd5beea756fc299c0f7"
+    }, {
+      "name" : "Element not found {app-search-result}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801219555.1.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801219555.1.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-search-result\"}",
+      "children" : [ {
+        "name" : "Basic booking online",
+        "uid" : "ebb5cbd4e4e9e63d",
+        "parentUid" : "36cd0749a7dd2f5b0805664999bff6d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801192029,
+          "stop" : 1643801220288,
+          "duration" : 28259
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36cd0749a7dd2f5b0805664999bff6d6"
+    }, {
+      "name" : "Element should have text 'CliffordMary' {app-outbox-page main}\nElement: '<main _ngcontent-weu-c110 class=\"main\">Sent orders\nCurrent\nArchived\nThere is no orders</main>'\nActual value: Sent orders\nCurrent\nArchived\nThere is no orders\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801243016.2.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801243016.2.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Check orders from user side",
+        "uid" : "a40d942209ce3408",
+        "parentUid" : "cee0467ae42fd7cd6e60ab2d3dd31746",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801220295,
+          "stop" : 1643801243643,
+          "duration" : 23348
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cee0467ae42fd7cd6e60ab2d3dd31746"
+    }, {
+      "name" : "Element not found {app-inbox-page}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801266444.3.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801266444.3.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-inbox-page\"}",
+      "children" : [ {
+        "name" : "Master completes order: online",
+        "uid" : "38193a816830554",
+        "parentUid" : "cd04b93e2ef4d37acad252dc5f0a1f52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801243646,
+          "stop" : 1643801267212,
+          "duration" : 23566
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd04b93e2ef4d37acad252dc5f0a1f52"
+    }, {
+      "name" : "Element not found {app-outbox/app-professional-card}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801290876.4.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801290876.4.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-professional-card\"}",
+      "children" : [ {
+        "name" : "Post and check review add to favorites in the process",
+        "uid" : "fb7086b94f8a0bc9",
+        "parentUid" : "8ff65d88b8d8b90c7279279c8e10dc7d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801267216,
+          "stop" : 1643801291512,
+          "duration" : 24296
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ff65d88b8d8b90c7279279c8e10dc7d"
+    }, {
+      "name" : "Element not found {[id='main-menu.professional-profile']}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801314102.5.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801314102.5.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[id='main-menu.professional-profile']\"}",
+      "children" : [ {
+        "name" : "Review answer",
+        "uid" : "1dec29f5e41b736",
+        "parentUid" : "a1340ca0a659c8ae049c4f86318cc065",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801291516,
+          "stop" : 1643801314926,
+          "duration" : 23410
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1340ca0a659c8ae049c4f86318cc065"
+    }, {
+      "name" : "Element not found {app-sent-order-list-item}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801338298.6.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801338298.6.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-sent-order-list-item\"}",
+      "children" : [ {
+        "name" : "Chat test",
+        "uid" : "ad6f3b4682bf51e4",
+        "parentUid" : "e37a7c21e8d62feac7082194cfc18c94",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801314929,
+          "stop" : 1643801338917,
+          "duration" : 23988
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e37a7c21e8d62feac7082194cfc18c94"
+    }, {
+      "name" : "Element should have text 'CliffordMary KlockoHowe' {app-bookmarks-list-page/main}\nElement: '<main _ngcontent-yxy-c110 class=\"main\">Favorites\nThere is no favorites</main>'\nActual value: Favorites\nThere is no favorites\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801361784.7.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801361784.7.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Remove master from favorites",
+        "uid" : "a023bfc1612b8fbb",
+        "parentUid" : "31d17f53c30114b398aba33fa09bc699",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801338920,
+          "stop" : 1643801362388,
+          "duration" : 23468
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31d17f53c30114b398aba33fa09bc699"
+    }, {
+      "name" : "Element not found {app-search-result}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801388476.8.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801388476.8.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-search-result\"}",
+      "children" : [ {
+        "name" : "Add master to favorite from search results",
+        "uid" : "aa201e3befe0357b",
+        "parentUid" : "43f67e860877c3f8184278229269c3a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801362394,
+          "stop" : 1643801389205,
+          "duration" : 26811
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43f67e860877c3f8184278229269c3a8"
+    }, {
+      "name" : "Element not found {app-search-result}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801407452.9.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801407452.9.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-search-result\"}",
+      "children" : [ {
+        "name" : "Main page search: professional name",
+        "uid" : "1df1e504f517828",
+        "parentUid" : "58be6ea2172a0f19852aae0820a7467f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801389208,
+          "stop" : 1643801408096,
+          "duration" : 18888
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58be6ea2172a0f19852aae0820a7467f"
+    }, {
+      "name" : "Element not found {app-search-result}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801427814.10.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801427814.10.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-search-result\"}",
+      "children" : [ {
+        "name" : "Search page search: professional name",
+        "uid" : "20b4b07128cb98a",
+        "parentUid" : "df2d4ad4c2e679d424100e37e9a1fb41",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801408099,
+          "stop" : 1643801428447,
+          "duration" : 20348
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df2d4ad4c2e679d424100e37e9a1fb41"
+    }, {
+      "name" : "Element not found {#alert-1-sub-hdr}\nExpected: visible\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801450140.11.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801450140.11.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#alert-1-sub-hdr\"}",
+      "children" : [ {
+        "name" : "Profile: delete address that was default",
+        "uid" : "7567f38f356957dc",
+        "parentUid" : "167b56878171f66fd5344a576982f447",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801429317,
+          "stop" : 1643801450677,
+          "duration" : 21360
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "167b56878171f66fd5344a576982f447"
+    }, {
+      "name" : "Element not found {#alert-1-sub-hdr}\nExpected: visible\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801474595.12.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801474595.12.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#alert-1-sub-hdr\"}",
+      "children" : [ {
+        "name" : "'Best works' will not show if professional doesn't have any",
+        "uid" : "905541d1b71c9ecb",
+        "parentUid" : "2fbbcbdc3f91fc43c6f8f2a635b38554",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801451653,
+          "stop" : 1643801475152,
+          "duration" : 23499
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2fbbcbdc3f91fc43c6f8f2a635b38554"
+    }, {
+      "name" : "Element not found {#alert-1-sub-hdr}\nExpected: visible\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801498097.13.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801498097.13.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#alert-1-sub-hdr\"}",
+      "children" : [ {
+        "name" : "'Best works' will show if filled",
+        "uid" : "8f44d59990837b0f",
+        "parentUid" : "4bea528f214ef6c36ce7e005c87c5046",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801475156,
+          "stop" : 1643801498624,
+          "duration" : 23468
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bea528f214ef6c36ce7e005c87c5046"
+    }, {
+      "name" : "Element not found {#alert-1-sub-hdr}\nExpected: visible\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801522872.14.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801522872.14.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#alert-1-sub-hdr\"}",
+      "children" : [ {
+        "name" : "Booking: today's date",
+        "uid" : "dd96dda0c4f934f0",
+        "parentUid" : "5181e3a6f1a2582877adcd806a373ccf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801499409,
+          "stop" : 1643801523429,
+          "duration" : 24020
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5181e3a6f1a2582877adcd806a373ccf"
+    }, {
+      "name" : "Element not found {#alert-1-sub-hdr}\nExpected: visible\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801546688.15.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801546688.15.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#alert-1-sub-hdr\"}",
+      "children" : [ {
+        "name" : "Booking: your own service for another person",
+        "uid" : "24fd4b09a7e76022",
+        "parentUid" : "2dd239c002329d729e866cee8e532083",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801523433,
+          "stop" : 1643801547244,
+          "duration" : 23811
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2dd239c002329d729e866cee8e532083"
+    }, {
+      "name" : "Element not found {#alert-1-sub-hdr}\nExpected: visible\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801576050.16.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801576050.16.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#alert-1-sub-hdr\"}",
+      "children" : [ {
+        "name" : "Booking: a service for another person",
+        "uid" : "8d1af9ce16ee1286",
+        "parentUid" : "142d1f0ab6e42184efdb26aa5f4b7552",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801547247,
+          "stop" : 1643801576595,
+          "duration" : 29348
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "142d1f0ab6e42184efdb26aa5f4b7552"
+    }, {
+      "name" : "Element not found {#alert-1-sub-hdr}\nExpected: visible\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801599287.17.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801599287.17.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#alert-1-sub-hdr\"}",
+      "children" : [ {
+        "name" : "Booking: time step, can't navigate back in time via arrows",
+        "uid" : "e6d3703ec71ae87e",
+        "parentUid" : "a134b6902fbaf738bdd0270b5005ea26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801576603,
+          "stop" : 1643801599830,
+          "duration" : 23227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a134b6902fbaf738bdd0270b5005ea26"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
