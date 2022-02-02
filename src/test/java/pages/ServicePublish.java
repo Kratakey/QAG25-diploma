@@ -395,7 +395,7 @@ public class ServicePublish extends config.TestBase {
             $("app-duration-viewer").shouldHave(text(serviceDurationMinutes));
         }
 
-        $("app-service-publish-final-step").$("ion-content").$("ion-item", 2).shouldHave(Condition.textCaseSensitive(serviceDescription));
+        $("app-service-publish-final-step ion-content ion-item", 2).shouldHave(Condition.textCaseSensitive(serviceDescription));
         $("app-service-location").shouldHave(Condition.text(serviceCountry + ", " + serviceCity + ", " + serviceAddress));
     }
 
@@ -487,7 +487,7 @@ public class ServicePublish extends config.TestBase {
         if (!value.equals("English language")) {
             fail();
         }
-        $("ionic-selectable-modal").$("ion-content").$("ion-item", 0).scrollIntoView(true).click();
+        $("ionic-selectable-modal ion-content ion-item", 0).scrollIntoView(true).click();
         $("ionic-selectable-modal").shouldNotBe(visible, Duration.ofSeconds(10));
     }
 

@@ -58,9 +58,9 @@ public class Reviews {
             fail();
         }
         value--;
-        sleep(200);
+        sleep(400);
         $("app-edit-review app-rating-picker ion-item", value).click();
-        sleep(200);
+        sleep(400);
     }
 
     @Step("Type review text")
