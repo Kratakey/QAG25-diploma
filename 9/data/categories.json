@@ -1,0 +1,196 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {app-confirmation-step div.footer ion-button}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802003884.0.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802003884.0.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-confirmation-step div.footer ion-button\"}",
+      "children" : [ {
+        "name" : "Basic booking online",
+        "uid" : "d91dacda400beef5",
+        "parentUid" : "c872e490873e9ba08081604817680362",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643801969212,
+          "stop" : 1643802004574,
+          "duration" : 35362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c872e490873e9ba08081604817680362"
+    }, {
+      "name" : "Element should have text 'RaphaelAdolph' {app-outbox-page main}\nElement: '<main _ngcontent-pku-c110 class=\"main\">Sent orders\nCurrent\nArchived\nThere is no orders</main>'\nActual value: Sent orders\nCurrent\nArchived\nThere is no orders\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802027397.1.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802027397.1.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Check orders from user side",
+        "uid" : "a5464363c5b9811e",
+        "parentUid" : "1b37358449eb52e231cf426159927913",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643802004580,
+          "stop" : 1643802027999,
+          "duration" : 23419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b37358449eb52e231cf426159927913"
+    }, {
+      "name" : "Element not found {app-inbox-page app-client-widget}\nExpected: text 'LindsySandy'\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802051449.2.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802051449.2.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-inbox-page app-client-widget\"}",
+      "children" : [ {
+        "name" : "Master completes order: online",
+        "uid" : "aaffffa4893863",
+        "parentUid" : "2e353171227f80b0836d252f1bb1711d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643802028006,
+          "stop" : 1643802052063,
+          "duration" : 24057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e353171227f80b0836d252f1bb1711d"
+    }, {
+      "name" : "Element not found {app-outbox/app-professional-card}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802075709.3.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802075709.3.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-professional-card\"}",
+      "children" : [ {
+        "name" : "Post and check review add to favorites in the process",
+        "uid" : "b5b83f2407e7a606",
+        "parentUid" : "2c6a3272024faccb1ba4cd2ed1f413f8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643802052074,
+          "stop" : 1643802076312,
+          "duration" : 24238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c6a3272024faccb1ba4cd2ed1f413f8"
+    }, {
+      "name" : "Element not found {app-reviews-list/app-review-card}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802100273.4.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802100273.4.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-review-card\"}",
+      "children" : [ {
+        "name" : "Review answer",
+        "uid" : "84685752eeff299b",
+        "parentUid" : "f5b94a2c709cd7a564ebe1ee19865ee0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643802076316,
+          "stop" : 1643802101065,
+          "duration" : 24749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5b94a2c709cd7a564ebe1ee19865ee0"
+    }, {
+      "name" : "Element not found {app-sent-order-list-item}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802124155.5.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802124155.5.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-sent-order-list-item\"}",
+      "children" : [ {
+        "name" : "Chat test",
+        "uid" : "808c87e6e7a0bf32",
+        "parentUid" : "2f305484b24f510fe6e2636b07b97f37",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643802101069,
+          "stop" : 1643802124747,
+          "duration" : 23678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f305484b24f510fe6e2636b07b97f37"
+    }, {
+      "name" : "Element should have text 'RaphaelAdolph KuhnStanton' {app-bookmarks-list-page/main}\nElement: '<main _ngcontent-rgf-c110 class=\"main\">Favorites\nThere is no favorites</main>'\nActual value: Favorites\nThere is no favorites\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802148030.6.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802148030.6.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Remove master from favorites",
+        "uid" : "4663699a670fb597",
+        "parentUid" : "bb6084e1c2ceaa053b3abe643a7cd7e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643802124771,
+          "stop" : 1643802148638,
+          "duration" : 23867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb6084e1c2ceaa053b3abe643a7cd7e5"
+    }, {
+      "name" : "Invalid element state: element click intercepted: Element <ion-menu-toggle _ngcontent-ueb-c94=\"\" menu=\"main-menu\" class=\"md hydrated\">...</ion-menu-toggle> is not clickable at point (28, 40). Other element would receive the click: <ion-menu _ngcontent-ueb-c173=\"\" contentid=\"main-content\" menuid=\"flag-menu\" side=\"end\" role=\"navigation\" class=\"md menu-type-overlay menu-enabled menu-side-end hydrated show-menu\" content-id=\"main-content\" menu-id=\"flag-menu\">...</ion-menu>\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802337741.7.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802337741.7.html\nTimeout: 10 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <ion-menu-toggle _ngcontent-ueb-c94=\"\" menu=\"main-menu\" class=\"md hydrated\">...</ion-menu-toggle> is not clickable at point (28, 40). Other element would receive the click: <ion-menu _ngcontent-ueb-c173=\"\" contentid=\"main-content\" menuid=\"flag-menu\" side=\"end\" role=\"navigation\" class=\"md menu-type-overlay menu-enabled menu-side-end hydrated show-menu\" content-id=\"main-content\" menu-id=\"flag-menu\">...</ion-menu>",
+      "children" : [ {
+        "name" : "Booking: today's date",
+        "uid" : "cc74664603dda084",
+        "parentUid" : "1ed18e840e18257edfccfd03a746d044",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643802298779,
+          "stop" : 1643802338638,
+          "duration" : 39859
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ed18e840e18257edfccfd03a746d044"
+    }, {
+      "name" : "Invalid element state: element click intercepted: Element <ion-menu-toggle _ngcontent-hhr-c94=\"\" menu=\"main-menu\" class=\"md hydrated\">...</ion-menu-toggle> is not clickable at point (28, 40). Other element would receive the click: <ion-menu _ngcontent-hhr-c173=\"\" contentid=\"main-content\" menuid=\"flag-menu\" side=\"end\" role=\"navigation\" class=\"md menu-type-overlay menu-enabled menu-side-end hydrated show-menu\" content-id=\"main-content\" menu-id=\"flag-menu\">...</ion-menu>\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802377439.8.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802377439.8.html\nTimeout: 10 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <ion-menu-toggle _ngcontent-hhr-c94=\"\" menu=\"main-menu\" class=\"md hydrated\">...</ion-menu-toggle> is not clickable at point (28, 40). Other element would receive the click: <ion-menu _ngcontent-hhr-c173=\"\" contentid=\"main-content\" menuid=\"flag-menu\" side=\"end\" role=\"navigation\" class=\"md menu-type-overlay menu-enabled menu-side-end hydrated show-menu\" content-id=\"main-content\" menu-id=\"flag-menu\">...</ion-menu>",
+      "children" : [ {
+        "name" : "Booking: your own service for another person",
+        "uid" : "8ceab119b5a62a94",
+        "parentUid" : "fe83a420fed4a1d165dcd01d82000651",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643802338652,
+          "stop" : 1643802378332,
+          "duration" : 39680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe83a420fed4a1d165dcd01d82000651"
+    }, {
+      "name" : "Element not found {app-confirmation-step div.footer ion-button}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802429657.9.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802429657.9.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-confirmation-step div.footer ion-button\"}",
+      "children" : [ {
+        "name" : "Booking: a service for another person",
+        "uid" : "da3a301821b21651",
+        "parentUid" : "1db09397106ed6a2bf7daa94244acc10",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643802378336,
+          "stop" : 1643802430324,
+          "duration" : 51988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1db09397106ed6a2bf7daa94244acc10"
+    }, {
+      "name" : "Invalid element state: element click intercepted: Element <ion-menu-toggle _ngcontent-hhe-c94=\"\" menu=\"main-menu\" class=\"md hydrated\">...</ion-menu-toggle> is not clickable at point (28, 40). Other element would receive the click: <ion-menu _ngcontent-hhe-c173=\"\" contentid=\"main-content\" menuid=\"flag-menu\" side=\"end\" role=\"navigation\" class=\"md menu-type-overlay menu-enabled menu-side-end hydrated show-menu\" content-id=\"main-content\" menu-id=\"flag-menu\">...</ion-menu>\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802467467.10.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802467467.10.html\nTimeout: 10 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <ion-menu-toggle _ngcontent-hhe-c94=\"\" menu=\"main-menu\" class=\"md hydrated\">...</ion-menu-toggle> is not clickable at point (28, 40). Other element would receive the click: <ion-menu _ngcontent-hhe-c173=\"\" contentid=\"main-content\" menuid=\"flag-menu\" side=\"end\" role=\"navigation\" class=\"md menu-type-overlay menu-enabled menu-side-end hydrated show-menu\" content-id=\"main-content\" menu-id=\"flag-menu\">...</ion-menu>",
+      "children" : [ {
+        "name" : "Booking: time step, can't navigate back in time via arrows",
+        "uid" : "d0a733db93976469",
+        "parentUid" : "d7398a76d56df42aebc440e39c728822",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643802430328,
+          "stop" : 1643802468374,
+          "duration" : 38046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d7398a76d56df42aebc440e39c728822"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

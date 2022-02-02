@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Kratakey.github.io/QAG25-diploma",
+  "buildOrder" : 9,
+  "buildName" : "GitHub Actions Run #1783634107",
+  "buildUrl" : "https://github.com/Kratakey/QAG25-diploma/actions/runs/1783634107",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/9/"
+} ]

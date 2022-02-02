@@ -1,0 +1,927 @@
+{
+  "uid" : "3ec2dcc9236e159a",
+  "name" : "'Best works' will not show if professional doesn't have any",
+  "fullName" : "desktopTests.regressionTests.SearchTests.t00000",
+  "historyId" : "8ff6d082ca03fc8f68cf8ecb4f0bce74",
+  "time" : {
+    "start" : 1643802230830,
+    "stop" : 1643802260412,
+    "duration" : 29582
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open URL: https://app.maxibooking.ru",
+      "time" : {
+        "start" : 1643802242796,
+        "stop" : 1643802246244,
+        "duration" : 3448
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://app.maxibooking.ru",
+        "time" : {
+          "start" : 1643802242796,
+          "stop" : 1643802246244,
+          "duration" : 3448
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Pop-up skip",
+      "time" : {
+        "start" : 1643802246244,
+        "stop" : 1643802248312,
+        "duration" : 2068
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#alert-1-sub-hdr\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643802246445,
+          "stop" : 1643802246696,
+          "duration" : 251
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") press escape()",
+        "time" : {
+          "start" : 1643802247696,
+          "stop" : 1643802247761,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643802247761,
+          "stop" : 1643802248112,
+          "duration" : 351
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Log In with wrt9ylwl@numquam.pp : obh1mmuhtx",
+      "time" : {
+        "start" : 1643802248312,
+        "stop" : 1643802253143,
+        "duration" : 4831
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Change language to English",
+        "time" : {
+          "start" : 1643802248312,
+          "stop" : 1643802248853,
+          "duration" : 541
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") get text()",
+          "time" : {
+            "start" : 1643802248812,
+            "stop" : 1643802248853,
+            "duration" : 41
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click Menu > Log in",
+        "time" : {
+          "start" : 1643802248853,
+          "stop" : 1643802250014,
+          "duration" : 1161
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[menu='main-menu'].filter(visible)[0]\") click()",
+          "time" : {
+            "start" : 1643802249154,
+            "stop" : 1643802249295,
+            "duration" : 141
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"[id='main-menu.log-in']\") scroll into view(true)",
+          "time" : {
+            "start" : 1643802249595,
+            "stop" : 1643802249628,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"[id='main-menu.log-in']\") get wrapped element()",
+            "time" : {
+              "start" : 1643802249595,
+              "stop" : 1643802249616,
+              "duration" : 21
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"[id='main-menu.log-in']\") click()",
+          "time" : {
+            "start" : 1643802249628,
+            "stop" : 1643802249714,
+            "duration" : 86
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"app-login/input\") set value(wrt9ylwl@numquam.pp)",
+        "time" : {
+          "start" : 1643802250014,
+          "stop" : 1643802250171,
+          "duration" : 157
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-login/input[1]\") set value(obh1mmuhtx)",
+        "time" : {
+          "start" : 1643802250171,
+          "stop" : 1643802250322,
+          "duration" : 151
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-login-form ion-button[type='submit']\") click()",
+        "time" : {
+          "start" : 1643802250488,
+          "stop" : 1643802250593,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-login-form ion-button[type='submit']\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643802250594,
+          "stop" : 1643802253143,
+          "duration" : 2549
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "d35a5a32b9ba3b4b",
+        "name" : "Screenshot",
+        "source" : "d35a5a32b9ba3b4b.png",
+        "type" : "image/png",
+        "size" : 29998
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 11,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Change language to English",
+      "time" : {
+        "start" : 1643802253143,
+        "stop" : 1643802255533,
+        "duration" : 2390
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") get text()",
+        "time" : {
+          "start" : 1643802253643,
+          "stop" : 1643802253706,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643802253706,
+          "stop" : 1643802253835,
+          "duration" : 129
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-flag-menu ion-select\") click()",
+        "time" : {
+          "start" : 1643802253835,
+          "stop" : 1643802254280,
+          "duration" : 445
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert button\") click()",
+        "time" : {
+          "start" : 1643802254280,
+          "stop" : 1643802254546,
+          "duration" : 266
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"div.alert-button-group button[1]\") click()",
+        "time" : {
+          "start" : 1643802254546,
+          "stop" : 1643802254613,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"div.alert-radio-group\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643802254613,
+          "stop" : 1643802254987,
+          "duration" : 374
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") exists()",
+        "time" : {
+          "start" : 1643802255488,
+          "stop" : 1643802255533,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Menu > Search",
+      "time" : {
+        "start" : 1643802255533,
+        "stop" : 1643802257109,
+        "duration" : 1576
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='main-menu'].filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643802255834,
+          "stop" : 1643802256342,
+          "duration" : 508
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[id='main-menu.search']\") scroll into view(true)",
+        "time" : {
+          "start" : 1643802256642,
+          "stop" : 1643802256675,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[id='main-menu.search']\") get wrapped element()",
+          "time" : {
+            "start" : 1643802256643,
+            "stop" : 1643802256666,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"[id='main-menu.search']\") click()",
+        "time" : {
+          "start" : 1643802256675,
+          "stop" : 1643802256809,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Close default filters",
+      "time" : {
+        "start" : 1643802257109,
+        "stop" : 1643802258704,
+        "duration" : 1595
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-applied-filters ion-chip\") exists()",
+        "time" : {
+          "start" : 1643802258109,
+          "stop" : 1643802258128,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-applied-filters ion-chip\") scroll into view(false)",
+        "time" : {
+          "start" : 1643802258128,
+          "stop" : 1643802258140,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"app-applied-filters ion-chip\") get wrapped element()",
+          "time" : {
+            "start" : 1643802258128,
+            "stop" : 1643802258135,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"app-applied-filters ion-chip\") click()",
+        "time" : {
+          "start" : 1643802258140,
+          "stop" : 1643802258192,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-applied-filters ion-chip\") exists()",
+        "time" : {
+          "start" : 1643802258692,
+          "stop" : 1643802258704,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Search page: Search District Solutions Associate (hei5c7ci)",
+      "time" : {
+        "start" : 1643802258704,
+        "stop" : 1643802260081,
+        "duration" : 1377
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search form input\") set value(\"District Solutions Associate (hei5c7ci)\")",
+        "time" : {
+          "start" : 1643802258704,
+          "stop" : 1643802258838,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-search form input\") press enter()",
+        "time" : {
+          "start" : 1643802259838,
+          "stop" : 1643802259878,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "74d70745e7f0e678",
+        "name" : "Screenshot",
+        "source" : "74d70745e7f0e678.png",
+        "type" : "image/png",
+        "size" : 131954
+      } ],
+      "parameters" : [ {
+        "name" : "searchQuery",
+        "value" : "District Solutions Associate (hei5c7ci)"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that 'Best works' field doesn't exists",
+      "time" : {
+        "start" : 1643802260081,
+        "stop" : 1643802260131,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search-result section ion-label\") should not(exist)",
+        "time" : {
+          "start" : 1643802260081,
+          "stop" : 1643802260131,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1643802260339,
+        "stop" : 1643802260412,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c830645a7a39a70a",
+      "name" : "Request",
+      "source" : "c830645a7a39a70a.html",
+      "type" : "text/html",
+      "size" : 2104
+    }, {
+      "uid" : "a789bdd790e8a80c",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "a789bdd790e8a80c.html",
+      "type" : "text/html",
+      "size" : 3307
+    }, {
+      "uid" : "3b4de6ab592dffdc",
+      "name" : "Request",
+      "source" : "3b4de6ab592dffdc.html",
+      "type" : "text/html",
+      "size" : 549
+    }, {
+      "uid" : "9f5ac922efe0d65a",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "9f5ac922efe0d65a.html",
+      "type" : "text/html",
+      "size" : 3860
+    }, {
+      "uid" : "293ed257329b24d9",
+      "name" : "Request",
+      "source" : "293ed257329b24d9.html",
+      "type" : "text/html",
+      "size" : 549
+    }, {
+      "uid" : "98bdd87e5be25756",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "98bdd87e5be25756.html",
+      "type" : "text/html",
+      "size" : 3860
+    }, {
+      "uid" : "34056fc406d6dc4d",
+      "name" : "Request",
+      "source" : "34056fc406d6dc4d.html",
+      "type" : "text/html",
+      "size" : 585
+    }, {
+      "uid" : "8f05feeaebd45723",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "8f05feeaebd45723.html",
+      "type" : "text/html",
+      "size" : 1788
+    }, {
+      "uid" : "46e7c0a1a4070d8",
+      "name" : "Request",
+      "source" : "46e7c0a1a4070d8.html",
+      "type" : "text/html",
+      "size" : 2127
+    }, {
+      "uid" : "d191904b56fb9495",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "d191904b56fb9495.html",
+      "type" : "text/html",
+      "size" : 3105
+    }, {
+      "uid" : "80075431366a0b2c",
+      "name" : "Request",
+      "source" : "80075431366a0b2c.html",
+      "type" : "text/html",
+      "size" : 2109
+    }, {
+      "uid" : "2c2ea8af5d743fd4",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "2c2ea8af5d743fd4.html",
+      "type" : "text/html",
+      "size" : 3156
+    }, {
+      "uid" : "ef10b1a627ca0fd6",
+      "name" : "Request",
+      "source" : "ef10b1a627ca0fd6.html",
+      "type" : "text/html",
+      "size" : 567
+    }, {
+      "uid" : "b0de4b46e5bdaab4",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "b0de4b46e5bdaab4.html",
+      "type" : "text/html",
+      "size" : 20163
+    }, {
+      "uid" : "6bc13477399d1cd8",
+      "name" : "Request",
+      "source" : "6bc13477399d1cd8.html",
+      "type" : "text/html",
+      "size" : 2195
+    }, {
+      "uid" : "2a5fbb1d22f87ec6",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "2a5fbb1d22f87ec6.html",
+      "type" : "text/html",
+      "size" : 2992
+    }, {
+      "uid" : "819695f7e37d653",
+      "name" : "Request",
+      "source" : "819695f7e37d653.html",
+      "type" : "text/html",
+      "size" : 2617
+    }, {
+      "uid" : "333e68d6e91527ec",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "333e68d6e91527ec.html",
+      "type" : "text/html",
+      "size" : 3230
+    }, {
+      "uid" : "15f69739ab54f7e2",
+      "name" : "Request",
+      "source" : "15f69739ab54f7e2.html",
+      "type" : "text/html",
+      "size" : 4255
+    }, {
+      "uid" : "f1fbe1c5007670b3",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "f1fbe1c5007670b3.html",
+      "type" : "text/html",
+      "size" : 3771
+    }, {
+      "uid" : "aa8911a503ae1230",
+      "name" : "Request",
+      "source" : "aa8911a503ae1230.html",
+      "type" : "text/html",
+      "size" : 2373
+    }, {
+      "uid" : "4a538fcb980cd3f8",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "4a538fcb980cd3f8.html",
+      "type" : "text/html",
+      "size" : 3093
+    }, {
+      "uid" : "4126e9634633f98b",
+      "name" : "Last screenshot",
+      "source" : "4126e9634633f98b.png",
+      "type" : "image/png",
+      "size" : 75751
+    }, {
+      "uid" : "a5f61af6636388d1",
+      "name" : "Page source",
+      "source" : "a5f61af6636388d1.html",
+      "type" : "text/plain",
+      "size" : 105751
+    }, {
+      "uid" : "a193ca06ea9556cf",
+      "name" : "Browser console logs",
+      "source" : "a193ca06ea9556cf.txt",
+      "type" : "text/plain",
+      "size" : 1416
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 43,
+    "attachmentsCount" : 27,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "desktop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:desktopTests.regressionTests.SearchTests]/[method:t00000()]"
+  }, {
+    "name" : "story",
+    "value" : "https://redmine.maxi-booking.ru/issues/4932"
+  }, {
+    "name" : "owner",
+    "value" : "Kratakey"
+  }, {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-228"
+  }, {
+    "name" : "thread",
+    "value" : "3362@fv-az74-228.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "desktopTests.regressionTests.SearchTests"
+  }, {
+    "name" : "testClass",
+    "value" : "desktopTests.regressionTests.SearchTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "t00000"
+  }, {
+    "name" : "suite",
+    "value" : "desktopTests.regressionTests.SearchTests"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Kratakey",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "905541d1b71c9ecb",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/8//#testresult/905541d1b71c9ecb",
+        "status" : "failed",
+        "statusDetails" : "Element not found {#alert-1-sub-hdr}\nExpected: visible\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801474595.12.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801474595.12.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#alert-1-sub-hdr\"}",
+        "time" : {
+          "start" : 1643801451653,
+          "stop" : 1643801475152,
+          "duration" : 23499
+        }
+      }, {
+        "uid" : "6853bbc185ca130d",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/7//#testresult/6853bbc185ca130d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643800111967,
+          "stop" : 1643800139788,
+          "duration" : 27821
+        }
+      } ]
+    },
+    "tags" : [ "desktop" ]
+  },
+  "source" : "3ec2dcc9236e159a.json",
+  "parameterValues" : [ ]
+}
