@@ -1,0 +1,70 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset = UTF-8">
+    <script src="https://yastatic.net/jquery/2.2.3/jquery.min.js" crossorigin="anonymous"></script>
+
+    <link href="https://yastatic.net/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://yastatic.net/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <link type="text/css" href="https://yandex.st/highlightjs/8.0/styles/github.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/languages/bash.min.js"></script>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/languages/json.min.js"></script>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/languages/xml.min.js"></script>
+    <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <pre><code>POST: https://app.maxibooking.ru:8000/en/api/accounts/services/</code></pre>
+</div>
+
+    <h4>Body</h4>
+    <div>
+        <pre><code>{
+    "duration": 15,
+    "is_enabled": true,
+    "service_type": "online",
+    "name": "National Functionality Manager (q2kmpq6fu)",
+    "description": "hvu4p3bcdgq909tu3atwp1f4fa851mv2fgfq5d1x5iuje0gdqor7l54qp32iymn83cj3t08d0ojdwajr13vjltyw4nz9q3fv3n37kt7io2dzafs45c15gcrl95bfcwjjpuszm43t3xdq5izbah1sv77jgp2s4eunu0gezs0qjvdl8rjm0gr4ch9",
+    "is_auto_order_confirmation": true,
+    "is_base_schedule": true,
+    "professional": 5489
+}</code></pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>
+                <pre><code><b>Authorization</b>: Bearer TpOjYw8nEIOb9EOSH6vhHS3VTho8rM</code></pre>
+            </div>
+            <div>
+                <pre><code><b>Accept</b>: application/json, text/plain, */*</code></pre>
+            </div>
+            <div>
+                <pre><code><b>Content-Type</b>: application/json</code></pre>
+            </div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        <pre><code>curl -v -X POST 'https://app.maxibooking.ru:8000/en/api/accounts/services/' -H 'Authorization: Bearer TpOjYw8nEIOb9EOSH6vhHS3VTho8rM' -H 'Accept: application/json, text/plain, */*' -H 'Content-Type: application/json' -d '{
+    "duration": 15,
+    "is_enabled": true,
+    "service_type": "online",
+    "name": "National Functionality Manager (q2kmpq6fu)",
+    "description": "hvu4p3bcdgq909tu3atwp1f4fa851mv2fgfq5d1x5iuje0gdqor7l54qp32iymn83cj3t08d0ojdwajr13vjltyw4nz9q3fv3n37kt7io2dzafs45c15gcrl95bfcwjjpuszm43t3xdq5izbah1sv77jgp2s4eunu0gezs0qjvdl8rjm0gr4ch9",
+    "is_auto_order_confirmation": true,
+    "is_base_schedule": true,
+    "professional": 5489
+}'</code></pre>
+    </div>
+</body>
+</html>

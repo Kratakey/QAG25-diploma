@@ -1,0 +1,201 @@
+[ {
+  "uid" : "c31a88d2b8c5a23c",
+  "name" : "Chat test",
+  "time" : {
+    "start" : 1643800002442,
+    "stop" : 1643800018825,
+    "duration" : 16383
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f01410cbbe55826f",
+  "name" : "Remove master from favorites",
+  "time" : {
+    "start" : 1643800018827,
+    "stop" : 1643800032437,
+    "duration" : 13610
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b0560914f32e6739",
+  "name" : "Full Positive User Registration - in order",
+  "time" : {
+    "start" : 1643799811628,
+    "stop" : 1643799844045,
+    "duration" : 32417
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "798ae0a8eee59981",
+  "name" : "Booking: your own service for another person",
+  "time" : {
+    "start" : 1643800214786,
+    "stop" : 1643800256285,
+    "duration" : 41499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "430886478742d38f",
+  "name" : "'Best works' will show if filled",
+  "time" : {
+    "start" : 1643800139792,
+    "stop" : 1643800175692,
+    "duration" : 35900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cd990486193f638",
+  "name" : "Basic booking online",
+  "time" : {
+    "start" : 1643799908248,
+    "stop" : 1643799937014,
+    "duration" : 28766
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d9823e85d9f73620",
+  "name" : "Booking: a service for another person",
+  "time" : {
+    "start" : 1643800256287,
+    "stop" : 1643800300958,
+    "duration" : 44671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e473370cfd3faf98",
+  "name" : "Master completes order: online",
+  "time" : {
+    "start" : 1643799950880,
+    "stop" : 1643799964578,
+    "duration" : 13698
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "eb34d25b5e25a99f",
+  "name" : "Search page search: professional name",
+  "time" : {
+    "start" : 1643800061240,
+    "stop" : 1643800072987,
+    "duration" : 11747
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b256cca7b6976b1b",
+  "name" : "Basic positive service publishing, service location: Online",
+  "time" : {
+    "start" : 1643799874167,
+    "stop" : 1643799908230,
+    "duration" : 34063
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6853bbc185ca130d",
+  "name" : "'Best works' will not show if professional doesn't have any",
+  "time" : {
+    "start" : 1643800111967,
+    "stop" : 1643800139788,
+    "duration" : 27821
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2253fc6af7b8ab9a",
+  "name" : "Booking: time step, can't navigate back in time via arrows",
+  "time" : {
+    "start" : 1643800300960,
+    "stop" : 1643800338870,
+    "duration" : 37910
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "1fc51e61cc93aedf",
+  "name" : "Booking: today's date",
+  "time" : {
+    "start" : 1643800176402,
+    "stop" : 1643800214784,
+    "duration" : 38382
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "844edf59aee95317",
+  "name" : "Add master to favorite from search results",
+  "time" : {
+    "start" : 1643800032440,
+    "stop" : 1643800050417,
+    "duration" : 17977
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "787f627ffc8835bb",
+  "name" : "Basic Positive User Registration",
+  "time" : {
+    "start" : 1643799844120,
+    "stop" : 1643799874161,
+    "duration" : 30041
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ca8101dcf7e91284",
+  "name" : "Check orders from user side",
+  "time" : {
+    "start" : 1643799937019,
+    "stop" : 1643799950877,
+    "duration" : 13858
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f66eb0d635a80b74",
+  "name" : "Profile: delete address that was default",
+  "time" : {
+    "start" : 1643800073726,
+    "stop" : 1643800111158,
+    "duration" : 37432
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d0d65e622888dcc7",
+  "name" : "Main page search: professional name",
+  "time" : {
+    "start" : 1643800050419,
+    "stop" : 1643800061237,
+    "duration" : 10818
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "bc122e02243f3b56",
+  "name" : "Review answer",
+  "time" : {
+    "start" : 1643799984852,
+    "stop" : 1643800002439,
+    "duration" : 17587
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9578d8f158450584",
+  "name" : "Post and check review add to favorites in the process",
+  "time" : {
+    "start" : 1643799964582,
+    "stop" : 1643799984849,
+    "duration" : 20267
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

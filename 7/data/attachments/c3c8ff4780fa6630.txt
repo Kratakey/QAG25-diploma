@@ -1,0 +1,1 @@
+[2022-02-02T11:05:46+0000] [SEVERE] https://app.maxibooking.ru/main-es2015.0e22109ec80dffcbbda0.js 0:826665 "Registration id is not correct."
