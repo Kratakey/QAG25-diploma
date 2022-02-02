@@ -1,0 +1,369 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "User Registration",
+    "children" : [ {
+      "name" : "Full registration",
+      "children" : [ {
+        "name" : "Full Positive User Registration - in order",
+        "uid" : "8ebf0f413e6ae7f4",
+        "parentUid" : "2186b80e4918a9eaea4cca81bb2e0bb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803217139,
+          "stop" : 1643803249597,
+          "duration" : 32458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2186b80e4918a9eaea4cca81bb2e0bb6"
+    }, {
+      "name" : "Minimal registration",
+      "children" : [ {
+        "name" : "Basic Positive User Registration",
+        "uid" : "44a2bf24571ced5c",
+        "parentUid" : "232fd6b8c31052dde25adb344253b2bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803249704,
+          "stop" : 1643803279742,
+          "duration" : 30038
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "232fd6b8c31052dde25adb344253b2bf"
+    } ],
+    "uid" : "865cfacb3500a558f339449c1e9ef3b9"
+  }, {
+    "name" : "Service Publish",
+    "children" : [ {
+      "name" : "Minimal service publication",
+      "children" : [ {
+        "name" : "Basic positive service publishing, service location: Online",
+        "uid" : "f9ad77305ddd08f0",
+        "parentUid" : "f0c75bde7d6bebc8f595fb3666d94137",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803279748,
+          "stop" : 1643803315784,
+          "duration" : 36036
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0c75bde7d6bebc8f595fb3666d94137"
+    } ],
+    "uid" : "d98a3daa1e5e557a657f9fa1546c9577"
+  }, {
+    "name" : "Booking",
+    "children" : [ {
+      "name" : "Service booking",
+      "children" : [ {
+        "name" : "Basic booking online",
+        "uid" : "c39d8978d818bbb6",
+        "parentUid" : "0d2065fa6f60223f199bbbacfbaac876",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803315799,
+          "stop" : 1643803350374,
+          "duration" : 34575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d2065fa6f60223f199bbbacfbaac876"
+    }, {
+      "name" : "https://redmine.maxi-booking.ru/issues/4857",
+      "children" : [ {
+        "name" : "Booking: today's date",
+        "uid" : "89f6184d347ac6ae",
+        "parentUid" : "e7e0d6c61ac43570bfb5a2640bda14f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803636781,
+          "stop" : 1643803675608,
+          "duration" : 38827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e7e0d6c61ac43570bfb5a2640bda14f2"
+    }, {
+      "name" : "https://redmine.maxi-booking.ru/issues/4764",
+      "children" : [ {
+        "name" : "Booking: your own service for another person",
+        "uid" : "ddbbb7195c1b002c",
+        "parentUid" : "9c62032dfd3bade7239c8bec409cc197",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803675611,
+          "stop" : 1643803713809,
+          "duration" : 38198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Booking: a service for another person",
+        "uid" : "2b5bcf071f939da3",
+        "parentUid" : "9c62032dfd3bade7239c8bec409cc197",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803713814,
+          "stop" : 1643803763861,
+          "duration" : 50047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c62032dfd3bade7239c8bec409cc197"
+    }, {
+      "name" : "https://redmine.maxi-booking.ru/issues/4929",
+      "children" : [ {
+        "name" : "Booking: time step, can't navigate back in time via arrows",
+        "uid" : "7b4034f003752d55",
+        "parentUid" : "8532acf8076170b3074370b266ec1ea7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803763863,
+          "stop" : 1643803801500,
+          "duration" : 37637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8532acf8076170b3074370b266ec1ea7"
+    } ],
+    "uid" : "9cc730940031b37aa4fa938899d8c2fa"
+  }, {
+    "name" : "Orders",
+    "children" : [ {
+      "name" : "Order check",
+      "children" : [ {
+        "name" : "Check orders from user side",
+        "uid" : "41390715dc878106",
+        "parentUid" : "b0123616cfcc4c5747e6deb6f56a01a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803350380,
+          "stop" : 1643803372994,
+          "duration" : 22614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Master completes order: online",
+        "uid" : "d2618204bed43355",
+        "parentUid" : "b0123616cfcc4c5747e6deb6f56a01a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803372998,
+          "stop" : 1643803396626,
+          "duration" : 23628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0123616cfcc4c5747e6deb6f56a01a4"
+    } ],
+    "uid" : "591567a1d65d15a76c2a50f520b81dbd"
+  }, {
+    "name" : "Reviews",
+    "children" : [ {
+      "name" : "Review check",
+      "children" : [ {
+        "name" : "Post and check review add to favorites in the process",
+        "uid" : "7e55fb81133e3445",
+        "parentUid" : "3a63b92c79356772c58e4efec13f4501",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803396645,
+          "stop" : 1643803419990,
+          "duration" : 23345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a63b92c79356772c58e4efec13f4501"
+    }, {
+      "name" : "Review master answers",
+      "children" : [ {
+        "name" : "Review answer",
+        "uid" : "2f14734cd71099d9",
+        "parentUid" : "19cbda758ba4ada873b195a16017ad0a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803419994,
+          "stop" : 1643803444533,
+          "duration" : 24539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19cbda758ba4ada873b195a16017ad0a"
+    } ],
+    "uid" : "37c4365cbd90c441bee5701be6e7c8a5"
+  }, {
+    "name" : "Messages",
+    "children" : [ {
+      "name" : "Chatting tests",
+      "children" : [ {
+        "name" : "Chat test",
+        "uid" : "75efc7999b2ba237",
+        "parentUid" : "d415bc5f3e6c667b15874787aaa39ae4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803444544,
+          "stop" : 1643803467974,
+          "duration" : 23430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d415bc5f3e6c667b15874787aaa39ae4"
+    } ],
+    "uid" : "1e066aec5cc90efe701a1ed213b445d0"
+  }, {
+    "name" : "Favorites",
+    "children" : [ {
+      "name" : "Remove master from favorites",
+      "children" : [ {
+        "name" : "Remove master from favorites",
+        "uid" : "70ba4b7929948afd",
+        "parentUid" : "253a24bf867bf16733d287592e6f9bf5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643803467992,
+          "stop" : 1643803491401,
+          "duration" : 23409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "253a24bf867bf16733d287592e6f9bf5"
+    }, {
+      "name" : "Add master to favorites",
+      "children" : [ {
+        "name" : "Add master to favorite from search results",
+        "uid" : "19216cb7d673fe27",
+        "parentUid" : "8837b9724fdacbe8bb43d900d0039f29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803491403,
+          "stop" : 1643803509480,
+          "duration" : 18077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8837b9724fdacbe8bb43d900d0039f29"
+    } ],
+    "uid" : "c898ee07c2878a01384550f03ce12ecb"
+  }, {
+    "name" : "Search",
+    "children" : [ {
+      "name" : "Search from the main page",
+      "children" : [ {
+        "name" : "Main page search: professional name",
+        "uid" : "5e8ba5c2c3774fa5",
+        "parentUid" : "bf936417a8c7ddf80636bd8ad4dec358",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803509487,
+          "stop" : 1643803520074,
+          "duration" : 10587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf936417a8c7ddf80636bd8ad4dec358"
+    }, {
+      "name" : "Search from the search page",
+      "children" : [ {
+        "name" : "Search page search: professional name",
+        "uid" : "dc7261761c81a82f",
+        "parentUid" : "0c0854a2ae78b567eb6c5b08cb3c887a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803520076,
+          "stop" : 1643803531866,
+          "duration" : 11790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c0854a2ae78b567eb6c5b08cb3c887a"
+    }, {
+      "name" : "https://redmine.maxi-booking.ru/issues/4932",
+      "children" : [ {
+        "name" : "'Best works' will not show if professional doesn't have any",
+        "uid" : "29c0e3a29194b904",
+        "parentUid" : "74b7a830daa17d66c7f2392adbb008b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803570420,
+          "stop" : 1643803599306,
+          "duration" : 28886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'Best works' will show if filled",
+        "uid" : "7112762af70e4a7",
+        "parentUid" : "74b7a830daa17d66c7f2392adbb008b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803599309,
+          "stop" : 1643803636083,
+          "duration" : 36774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74b7a830daa17d66c7f2392adbb008b2"
+    } ],
+    "uid" : "b4c391a54a6b5af78881245cab8481cb"
+  }, {
+    "name" : "Profile",
+    "children" : [ {
+      "name" : "https://redmine.maxi-booking.ru/issues/4844",
+      "children" : [ {
+        "name" : "Profile: delete address that was default",
+        "uid" : "7087c668c8141ead",
+        "parentUid" : "815f748c8d79c7014fc18ca5eec5b4d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803532614,
+          "stop" : 1643803569569,
+          "duration" : 36955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "815f748c8d79c7014fc18ca5eec5b4d7"
+    } ],
+    "uid" : "d7f9de5a628df3841073fad21edb5903"
+  } ],
+  "name" : "behaviors"
+}
