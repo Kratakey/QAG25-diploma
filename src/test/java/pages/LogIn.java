@@ -161,7 +161,7 @@ public class LogIn extends config.TestBase {
                 $("ion-alert button", 0).click();
                 $("div.alert-button-group button", 1).click();
                 $("div.alert-radio-group").shouldNotBe(visible, Duration.ofSeconds(10));
-                sleep(500);
+                sleep(1000);
                 if ($("ion-alert").exists()) {
                     closeAlert();
                 }
