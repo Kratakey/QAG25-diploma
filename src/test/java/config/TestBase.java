@@ -109,7 +109,6 @@ public class TestBase extends TestData {
             case "desktop":
                 Configuration.browser = config.getBrowserName();
                 Configuration.browserSize = config.getBrowserSize();
-                Configuration.remote = config.getRemote();
                 break;
             default:
                 fail();
@@ -118,7 +117,9 @@ public class TestBase extends TestData {
         if (!config.getBrowserVersion().equals("")) {
             Configuration.browserVersion = config.getBrowserVersion();
         }
-
+        if (!config.getRemote().equals("")) {
+            Configuration.remote = config.getRemote();
+        }
         Configuration.timeout = config.getTimeout();
         Configuration.headless = config.getHeadless();
         Configuration.browserCapabilities.setCapability("enableVNC", config.getVNC());
