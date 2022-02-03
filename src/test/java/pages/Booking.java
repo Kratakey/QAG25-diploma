@@ -213,6 +213,9 @@ public class Booking {
         $("app-confirmation-step div.footer ion-button").shouldNotHave(cssClass("button-disabled"), Duration.ofSeconds(10));
         $("app-confirmation-step div.footer ion-button").scrollIntoView(true).click();
         $("app-confirmation-step div.footer ion-button").shouldNotBe(visible, Duration.ofSeconds(10));
+//        $("app-book div.footer ion-button").shouldNotHave(cssClass("button-disabled"), Duration.ofSeconds(10));
+//        $("app-book div.footer ion-button").scrollIntoView(true).click();
+//        $("app-book div.footer ion-button").shouldNotBe(visible, Duration.ofSeconds(10));
     }
 
 

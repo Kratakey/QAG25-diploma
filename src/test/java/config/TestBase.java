@@ -89,6 +89,10 @@ public class TestBase extends TestData {
 
     @BeforeAll
     public static void init() {
+        if (!config.getRemote().equals("")) {
+            System.setProperty("environment", "remote");
+            Configuration.remote = config.getRemote();
+        }
         if (!deviceFarm.equals("desktop")) {
             Configuration.browserSize = null;
             Configuration.startMaximized = config.getStartMaximized();
@@ -117,9 +121,7 @@ public class TestBase extends TestData {
         if (!config.getBrowserVersion().equals("")) {
             Configuration.browserVersion = config.getBrowserVersion();
         }
-        if (!config.getRemote().equals("")) {
-            Configuration.remote = config.getRemote();
-        }
+
         Configuration.timeout = config.getTimeout();
         Configuration.headless = config.getHeadless();
         Configuration.browserCapabilities.setCapability("enableVNC", config.getVNC());

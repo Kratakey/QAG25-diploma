@@ -6,7 +6,7 @@ import org.aeonbits.owner.Config;
 @Config.LoadPolicy(Config.LoadType.FIRST)
 @Config.Sources({
         "classpath:config/${environment}.properties",
-        "classpath:config/local_chrome.properties"
+        "classpath:config/local.properties"
 })
 public interface WebDriverConfig extends Config {
 
