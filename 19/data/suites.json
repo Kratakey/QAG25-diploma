@@ -1,0 +1,281 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "desktopTests.regressionTests.BookingTests",
+    "children" : [ {
+      "name" : "Booking: today's date",
+      "uid" : "8f88aba6347cf152",
+      "parentUid" : "bb13bfea3a1049f956b84f1d23af668c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643907254469,
+        "stop" : 1643907318221,
+        "duration" : 63752
+      },
+      "flaky" : true,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Booking: your own service for another person",
+      "uid" : "8d09a6a2689b5634",
+      "parentUid" : "bb13bfea3a1049f956b84f1d23af668c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907318346,
+        "stop" : 1643907363276,
+        "duration" : 44930
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Booking: a service for another person",
+      "uid" : "53b0de8628bb493b",
+      "parentUid" : "bb13bfea3a1049f956b84f1d23af668c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907363289,
+        "stop" : 1643907412906,
+        "duration" : 49617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Booking: time step, can't navigate back in time via arrows",
+      "uid" : "1072e56cc4b9ff5a",
+      "parentUid" : "bb13bfea3a1049f956b84f1d23af668c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907412912,
+        "stop" : 1643907452134,
+        "duration" : 39222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bb13bfea3a1049f956b84f1d23af668c"
+  }, {
+    "name" : "desktopTests.regressionTests.UserProfileTests",
+    "children" : [ {
+      "name" : "Profile: delete address that was default",
+      "uid" : "1c7bb946560bc93c",
+      "parentUid" : "f39fe91c73738ea9e2cf325834459883",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907452900,
+        "stop" : 1643907487654,
+        "duration" : 34754
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f39fe91c73738ea9e2cf325834459883"
+  }, {
+    "name" : "desktopTests.regressionTests.SearchTests",
+    "children" : [ {
+      "name" : "'Best works' will not show if professional doesn't have any",
+      "uid" : "c79b3da4c0be19dc",
+      "parentUid" : "6bdbedfbb3edac5b96ac393fc4aab69a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907488303,
+        "stop" : 1643907517686,
+        "duration" : 29383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "'Best works' will show if filled",
+      "uid" : "6aa9f5705e64c977",
+      "parentUid" : "6bdbedfbb3edac5b96ac393fc4aab69a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907517691,
+        "stop" : 1643907557352,
+        "duration" : 39661
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6bdbedfbb3edac5b96ac393fc4aab69a"
+  }, {
+    "name" : "desktopTests.smokeTests.PositiveTests",
+    "children" : [ {
+      "name" : "Full Positive User Registration - in order",
+      "uid" : "f9ef5bf294699ef8",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907558074,
+        "stop" : 1643907584894,
+        "duration" : 26820
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Basic Positive User Registration",
+      "uid" : "c7d1454c732d2723",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907584899,
+        "stop" : 1643907616002,
+        "duration" : 31103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Basic positive service publishing, service location: Online",
+      "uid" : "94feb1251f4dc083",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907616007,
+        "stop" : 1643907653487,
+        "duration" : 37480
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Basic booking online",
+      "uid" : "d091c96e678c6333",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907653490,
+        "stop" : 1643907683683,
+        "duration" : 30193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check orders from user side",
+      "uid" : "7f3a34d3a894183f",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907683688,
+        "stop" : 1643907698360,
+        "duration" : 14672
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Master completes order: online",
+      "uid" : "55ce7978ec75dc62",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907698363,
+        "stop" : 1643907712650,
+        "duration" : 14287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Post and check review add to favorites in the process",
+      "uid" : "bd34ea75cb1089f9",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907712658,
+        "stop" : 1643907734964,
+        "duration" : 22306
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Review answer",
+      "uid" : "88158eca48581ab4",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907734968,
+        "stop" : 1643907752593,
+        "duration" : 17625
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Chat test",
+      "uid" : "34b81149a50a3ab6",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907752598,
+        "stop" : 1643907769585,
+        "duration" : 16987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Remove master from favorites",
+      "uid" : "2b1e123007d4b400",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907769591,
+        "stop" : 1643907783549,
+        "duration" : 13958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Add master to favorite from search results",
+      "uid" : "572b374ac09fef05",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907783552,
+        "stop" : 1643907802954,
+        "duration" : 19402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Main page search: professional name",
+      "uid" : "7771655ffb462a46",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907802962,
+        "stop" : 1643907814710,
+        "duration" : 11748
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Search page search: professional name",
+      "uid" : "fb9b4d6b0bd0dd30",
+      "parentUid" : "05085d33819b1d128d3bbc90bce4bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643907814712,
+        "stop" : 1643907827002,
+        "duration" : 12290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05085d33819b1d128d3bbc90bce4bade"
+  } ],
+  "name" : "suites"
+}

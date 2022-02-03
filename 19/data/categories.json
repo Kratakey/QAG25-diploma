@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {app-sent-order-page section}\nExpected: visible\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643907317374.0.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643907317374.0.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-sent-order-page section\"}",
+      "children" : [ {
+        "name" : "Booking: today's date",
+        "uid" : "8f88aba6347cf152",
+        "parentUid" : "af504724f52ddcec2de739092d4b3278",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643907254469,
+          "stop" : 1643907318221,
+          "duration" : 63752
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af504724f52ddcec2de739092d4b3278"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
