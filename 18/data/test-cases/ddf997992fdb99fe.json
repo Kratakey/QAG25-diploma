@@ -1,0 +1,1569 @@
+{
+  "uid" : "ddf997992fdb99fe",
+  "name" : "Full Positive User Registration - in order",
+  "fullName" : "desktopTests.smokeTests.PositiveTests.t00000",
+  "historyId" : "6803cd1b87d3a6b97b8954dbf8b5a1f3",
+  "time" : {
+    "start" : 1643907460100,
+    "stop" : 1643907484868,
+    "duration" : 24768
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open URL: https://app.maxibooking.ru",
+      "time" : {
+        "start" : 1643907461007,
+        "stop" : 1643907463433,
+        "duration" : 2426
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://app.maxibooking.ru",
+        "time" : {
+          "start" : 1643907461008,
+          "stop" : 1643907463433,
+          "duration" : 2425
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Pop-up skip",
+      "time" : {
+        "start" : 1643907463433,
+        "stop" : 1643907465571,
+        "duration" : 2138
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"h2.alert-sub-title\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907463634,
+          "stop" : 1643907463925,
+          "duration" : 291
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") press escape()",
+        "time" : {
+          "start" : 1643907464926,
+          "stop" : 1643907465002,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907465002,
+          "stop" : 1643907465371,
+          "duration" : 369
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Change language to English",
+      "time" : {
+        "start" : 1643907465571,
+        "stop" : 1643907466144,
+        "duration" : 573
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") get text()",
+        "time" : {
+          "start" : 1643907466072,
+          "stop" : 1643907466144,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Menu > Sing up",
+      "time" : {
+        "start" : 1643907466144,
+        "stop" : 1643907467423,
+        "duration" : 1279
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='main-menu'].filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643907466444,
+          "stop" : 1643907466617,
+          "duration" : 173
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[id='main-menu.sign-up']\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907466917,
+          "stop" : 1643907466947,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[id='main-menu.sign-up']\") get wrapped element()",
+          "time" : {
+            "start" : 1643907466917,
+            "stop" : 1643907466939,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"[id='main-menu.sign-up']\") click()",
+        "time" : {
+          "start" : 1643907466947,
+          "stop" : 1643907467123,
+          "duration" : 176
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill the first name",
+      "time" : {
+        "start" : 1643907467424,
+        "stop" : 1643907467583,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"input[name='name']\") set value(AndyRebbeca)",
+        "time" : {
+          "start" : 1643907467424,
+          "stop" : 1643907467583,
+          "duration" : 159
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userFirstName",
+        "value" : "AndyRebbeca"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill the last name",
+      "time" : {
+        "start" : 1643907467583,
+        "stop" : 1643907467699,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"input[name='name'][1]\") set value(EmardWill)",
+        "time" : {
+          "start" : 1643907467583,
+          "stop" : 1643907467699,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userLastName",
+        "value" : "EmardWill"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill an email",
+      "time" : {
+        "start" : 1643907467699,
+        "stop" : 1643907467876,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"input[name='email'].filter(visible)[0]\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907467699,
+          "stop" : 1643907467733,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"input[name='email'].filter(visible)[0]\") get wrapped element()",
+          "time" : {
+            "start" : 1643907467699,
+            "stop" : 1643907467728,
+            "duration" : 29
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"input[name='email'].filter(visible)[0]\") set value(aldo.veum@reprehenderit.nonw)",
+        "time" : {
+          "start" : 1643907467733,
+          "stop" : 1643907467876,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userEmail",
+        "value" : "aldo.veum@reprehenderit.nonw"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Choose a password",
+      "time" : {
+        "start" : 1643907467876,
+        "stop" : 1643907468201,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"input[name='password'].filter(visible)[0]\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907467876,
+          "stop" : 1643907467910,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"input[name='password'].filter(visible)[0]\") get wrapped element()",
+          "time" : {
+            "start" : 1643907467876,
+            "stop" : 1643907467905,
+            "duration" : 29
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"input[name='password'].filter(visible)[0]\") set value(9z2640dc8)",
+        "time" : {
+          "start" : 1643907467910,
+          "stop" : 1643907468033,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"input[name='confirm'].filter(visible)[0]\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907468034,
+          "stop" : 1643907468068,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"input[name='confirm'].filter(visible)[0]\") get wrapped element()",
+          "time" : {
+            "start" : 1643907468034,
+            "stop" : 1643907468060,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"input[name='confirm'].filter(visible)[0]\") set value(9z2640dc8)",
+        "time" : {
+          "start" : 1643907468068,
+          "stop" : 1643907468201,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userPassword",
+        "value" : "9z2640dc8"
+      } ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill a phone number : Russia - 9110167025",
+      "time" : {
+        "start" : 1643907468201,
+        "stop" : 1643907470184,
+        "duration" : 1983
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-phone-editor/input\") set value(9110167025)",
+        "time" : {
+          "start" : 1643907468201,
+          "stop" : 1643907468340,
+          "duration" : 139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-registration-form/button[type='button']\") click()",
+        "time" : {
+          "start" : 1643907468340,
+          "stop" : 1643907468461,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal input\") should be([empty: attribute value=\"\" and exact text '', 10 s.])",
+        "time" : {
+          "start" : 1643907468461,
+          "stop" : 1643907468710,
+          "duration" : 249
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal input\") send keys(Russia)",
+        "time" : {
+          "start" : 1643907469210,
+          "stop" : 1643907469293,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal ion-item[1]\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907469293,
+          "stop" : 1643907469623,
+          "duration" : 330
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal ion-item\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907469623,
+          "stop" : 1643907469692,
+          "duration" : 69
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal ion-item\") click()",
+        "time" : {
+          "start" : 1643907469692,
+          "stop" : 1643907469775,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907469775,
+          "stop" : 1643907470184,
+          "duration" : 409
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userPhoneNumber",
+        "value" : "9110167025"
+      }, {
+        "name" : "userCountry",
+        "value" : "Russia"
+      } ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select a country: Russia",
+      "time" : {
+        "start" : 1643907470184,
+        "stop" : 1643907471983,
+        "duration" : 1799
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-registration-form/app-country-selector/ion-item\") click()",
+        "time" : {
+          "start" : 1643907470184,
+          "stop" : 1643907470264,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal input\") should be([empty: attribute value=\"\" and exact text '', 10 s.])",
+        "time" : {
+          "start" : 1643907470264,
+          "stop" : 1643907470533,
+          "duration" : 269
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal input\") send keys(Russia)",
+        "time" : {
+          "start" : 1643907471034,
+          "stop" : 1643907471099,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal ion-item[1]\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907471099,
+          "stop" : 1643907471458,
+          "duration" : 359
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal ion-item\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907471458,
+          "stop" : 1643907471478,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal ion-item\") click()",
+        "time" : {
+          "start" : 1643907471478,
+          "stop" : 1643907471570,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907471570,
+          "stop" : 1643907471983,
+          "duration" : 413
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userCountry",
+        "value" : "Russia"
+      } ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select a city: Moscow",
+      "time" : {
+        "start" : 1643907471983,
+        "stop" : 1643907474473,
+        "duration" : 2490
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-registration-form/app-city-selector/ion-item\") click()",
+        "time" : {
+          "start" : 1643907471983,
+          "stop" : 1643907472061,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal input\") should be([empty: attribute value=\"\" and exact text '', 10 s.])",
+        "time" : {
+          "start" : 1643907472061,
+          "stop" : 1643907472322,
+          "duration" : 261
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal input\") send keys(Moscow)",
+        "time" : {
+          "start" : 1643907472822,
+          "stop" : 1643907472892,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal ion-item[1]\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907472892,
+          "stop" : 1643907473802,
+          "duration" : 910
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal ion-item\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907473802,
+          "stop" : 1643907474048,
+          "duration" : 246
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal ion-item\") click()",
+        "time" : {
+          "start" : 1643907474048,
+          "stop" : 1643907474108,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ionic-selectable-modal\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907474108,
+          "stop" : 1643907474473,
+          "duration" : 365
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userCity",
+        "value" : "Moscow"
+      } ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Confirm",
+      "time" : {
+        "start" : 1643907474473,
+        "stop" : 1643907478247,
+        "duration" : 3774
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-registration ion-button[type='submit']\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907474473,
+          "stop" : 1643907474495,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-registration ion-button[type='submit']\") click()",
+        "time" : {
+          "start" : 1643907474496,
+          "stop" : 1643907474557,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-registration ion-button[type='submit']\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907474557,
+          "stop" : 1643907478247,
+          "duration" : 3690
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Complete turor slides to search",
+      "time" : {
+        "start" : 1643907478247,
+        "stop" : 1643907479005,
+        "duration" : 758
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-registration-tutor/ion-button.registration-tutor-button.filter(visible)[0]\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907478248,
+          "stop" : 1643907478293,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"app-registration-tutor/ion-button.registration-tutor-button.filter(visible)[0]\") get wrapped element()",
+          "time" : {
+            "start" : 1643907478248,
+            "stop" : 1643907478287,
+            "duration" : 39
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"app-registration-tutor/ion-button.registration-tutor-button.filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643907478293,
+          "stop" : 1643907478371,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-registration-tutor/ion-button.registration-tutor-button.filter(visible)[0]\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907478371,
+          "stop" : 1643907478454,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"app-registration-tutor/ion-button.registration-tutor-button.filter(visible)[0]\") get wrapped element()",
+          "time" : {
+            "start" : 1643907478371,
+            "stop" : 1643907478449,
+            "duration" : 78
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"app-registration-tutor/ion-button.registration-tutor-button.filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643907478454,
+          "stop" : 1643907478556,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-registration-tutor/ion-button.registration-tutor-button.filter(visible)[0]\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907478556,
+          "stop" : 1643907478704,
+          "duration" : 148
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"app-registration-tutor/ion-button.registration-tutor-button.filter(visible)[0]\") get wrapped element()",
+          "time" : {
+            "start" : 1643907478556,
+            "stop" : 1643907478700,
+            "duration" : 144
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"app-registration-tutor/ion-button.registration-tutor-button.filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643907478704,
+          "stop" : 1643907479005,
+          "duration" : 301
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Change language to English",
+      "time" : {
+        "start" : 1643907479005,
+        "stop" : 1643907482955,
+        "duration" : 3950
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") get text()",
+        "time" : {
+          "start" : 1643907479506,
+          "stop" : 1643907479678,
+          "duration" : 172
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643907479679,
+          "stop" : 1643907479843,
+          "duration" : 164
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-flag-menu ion-select\") click()",
+        "time" : {
+          "start" : 1643907479843,
+          "stop" : 1643907479999,
+          "duration" : 156
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert button\") click()",
+        "time" : {
+          "start" : 1643907479999,
+          "stop" : 1643907480296,
+          "duration" : 297
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"div.alert-button-group button[1]\") click()",
+        "time" : {
+          "start" : 1643907480296,
+          "stop" : 1643907480489,
+          "duration" : 193
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"div.alert-radio-group\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907480489,
+          "stop" : 1643907481942,
+          "duration" : 1453
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") exists()",
+        "time" : {
+          "start" : 1643907482942,
+          "stop" : 1643907482955,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Menu > Profile",
+      "time" : {
+        "start" : 1643907482955,
+        "stop" : 1643907484227,
+        "duration" : 1272
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='main-menu'].filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643907483256,
+          "stop" : 1643907483441,
+          "duration" : 185
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[id='main-menu.my-account']\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907483741,
+          "stop" : 1643907483797,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[id='main-menu.my-account']\") get wrapped element()",
+          "time" : {
+            "start" : 1643907483742,
+            "stop" : 1643907483791,
+            "duration" : 49
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"[id='main-menu.my-account']\") click()",
+        "time" : {
+          "start" : 1643907483797,
+          "stop" : 1643907483927,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify full registration data",
+      "time" : {
+        "start" : 1643907484227,
+        "stop" : 1643907484564,
+        "duration" : 337
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-profile/with text: AndyRebbeca\") should(visible)",
+        "time" : {
+          "start" : 1643907484228,
+          "stop" : 1643907484340,
+          "duration" : 112
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-profile/with text: EmardWill\") should(visible)",
+        "time" : {
+          "start" : 1643907484340,
+          "stop" : 1643907484430,
+          "duration" : 90
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-profile/with text: aldo.veum@reprehenderit.nonw\") should(visible)",
+        "time" : {
+          "start" : 1643907484430,
+          "stop" : 1643907484467,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-profile/with text: 9110167025\") should(visible)",
+        "time" : {
+          "start" : 1643907484467,
+          "stop" : 1643907484500,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-profile/with text: Russia\") should(visible)",
+        "time" : {
+          "start" : 1643907484500,
+          "stop" : 1643907484531,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-profile/with text: Moscow\") should(visible)",
+        "time" : {
+          "start" : 1643907484531,
+          "stop" : 1643907484564,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userFirstName",
+        "value" : "AndyRebbeca"
+      }, {
+        "name" : "userLastName",
+        "value" : "EmardWill"
+      }, {
+        "name" : "userEmail",
+        "value" : "aldo.veum@reprehenderit.nonw"
+      }, {
+        "name" : "userPhoneNumber",
+        "value" : "9110167025"
+      }, {
+        "name" : "userCountry",
+        "value" : "Russia"
+      }, {
+        "name" : "userCity",
+        "value" : "Moscow"
+      } ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1643907484788,
+        "stop" : 1643907484867,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6ebc2e5f5797a3d7",
+      "name" : "Last screenshot",
+      "source" : "6ebc2e5f5797a3d7.png",
+      "type" : "image/png",
+      "size" : 65039
+    }, {
+      "uid" : "f6e507d28362df45",
+      "name" : "Page source",
+      "source" : "f6e507d28362df45.html",
+      "type" : "text/plain",
+      "size" : 143830
+    }, {
+      "uid" : "d4d9b017aeddfeb",
+      "name" : "Browser console logs",
+      "source" : "d4d9b017aeddfeb.txt",
+      "type" : "text/plain",
+      "size" : 283
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 88,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "desktop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:desktopTests.smokeTests.PositiveTests]/[method:t00000()]"
+  }, {
+    "name" : "story",
+    "value" : "Full registration"
+  }, {
+    "name" : "feature",
+    "value" : "User Registration"
+  }, {
+    "name" : "owner",
+    "value" : "Kratakey"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-738"
+  }, {
+    "name" : "thread",
+    "value" : "3292@fv-az39-738.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testClass",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "t00000"
+  }, {
+    "name" : "suite",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Kratakey",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "4d69e2af662cf829",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/17//#testresult/4d69e2af662cf829",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643907371888,
+          "stop" : 1643907396714,
+          "duration" : 24826
+        }
+      }, {
+        "uid" : "c4f3503aed3f99c2",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/16//#testresult/c4f3503aed3f99c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643906091388,
+          "stop" : 1643906118577,
+          "duration" : 27189
+        }
+      }, {
+        "uid" : "a19a2bfd9fd15e7d",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/15//#testresult/a19a2bfd9fd15e7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643904807880,
+          "stop" : 1643904832397,
+          "duration" : 24517
+        }
+      }, {
+        "uid" : "9124419145af56bb",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/14//#testresult/9124419145af56bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643903995621,
+          "stop" : 1643904021940,
+          "duration" : 26319
+        }
+      }, {
+        "uid" : "e028a1db68acc655",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/13//#testresult/e028a1db68acc655",
+        "status" : "broken",
+        "statusDetails" : "Invalid 'remote' parameter: ",
+        "time" : {
+          "start" : 1643903163096,
+          "stop" : 1643903164049,
+          "duration" : 953
+        }
+      }, {
+        "uid" : "aab0be3ca507b17d",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/11//#testresult/aab0be3ca507b17d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902037340,
+          "stop" : 1643902063136,
+          "duration" : 25796
+        }
+      }, {
+        "uid" : "8ebf0f413e6ae7f4",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/10//#testresult/8ebf0f413e6ae7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803217139,
+          "stop" : 1643803249597,
+          "duration" : 32458
+        }
+      }, {
+        "uid" : "8cb2e6bb2b35c99b",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/9//#testresult/8cb2e6bb2b35c99b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643801865323,
+          "stop" : 1643801902270,
+          "duration" : 36947
+        }
+      }, {
+        "uid" : "2fd8ba445a7c84f5",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/8//#testresult/2fd8ba445a7c84f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643801097198,
+          "stop" : 1643801127508,
+          "duration" : 30310
+        }
+      }, {
+        "uid" : "b0560914f32e6739",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/7//#testresult/b0560914f32e6739",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643799811628,
+          "stop" : 1643799844045,
+          "duration" : 32417
+        }
+      } ]
+    },
+    "tags" : [ "desktop" ]
+  },
+  "source" : "ddf997992fdb99fe.json",
+  "parameterValues" : [ ]
+}

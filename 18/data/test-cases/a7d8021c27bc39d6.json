@@ -1,0 +1,613 @@
+{
+  "uid" : "a7d8021c27bc39d6",
+  "name" : "Main page search: professional name",
+  "fullName" : "desktopTests.smokeTests.PositiveTests.t00700",
+  "historyId" : "a9c95d02ae418ca0993a43805e60e1ce",
+  "time" : {
+    "start" : 1643907683942,
+    "stop" : 1643907694528,
+    "duration" : 10586
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open URL: https://app.maxibooking.ru",
+      "time" : {
+        "start" : 1643907684953,
+        "stop" : 1643907687733,
+        "duration" : 2780
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://app.maxibooking.ru",
+        "time" : {
+          "start" : 1643907684953,
+          "stop" : 1643907687733,
+          "duration" : 2780
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Pop-up skip",
+      "time" : {
+        "start" : 1643907687733,
+        "stop" : 1643907689612,
+        "duration" : 1879
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"h2.alert-sub-title\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907687934,
+          "stop" : 1643907688009,
+          "duration" : 75
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") press escape()",
+        "time" : {
+          "start" : 1643907689009,
+          "stop" : 1643907689091,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907689091,
+          "stop" : 1643907689411,
+          "duration" : 320
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Change language to English",
+      "time" : {
+        "start" : 1643907689612,
+        "stop" : 1643907690158,
+        "duration" : 546
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") get text()",
+        "time" : {
+          "start" : 1643907690112,
+          "stop" : 1643907690158,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Main page: Search without quotes AndyRebbeca EmardWill",
+      "time" : {
+        "start" : 1643907690159,
+        "stop" : 1643907691717,
+        "duration" : 1558
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"ion-searchbar input\") set value(AndyRebbeca EmardWill)",
+        "time" : {
+          "start" : 1643907690159,
+          "stop" : 1643907690295,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-searchbar input\") press enter()",
+        "time" : {
+          "start" : 1643907691295,
+          "stop" : 1643907691340,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "19716abc101f5d24",
+        "name" : "Screenshot",
+        "source" : "19716abc101f5d24.png",
+        "type" : "image/png",
+        "size" : 284163
+      } ],
+      "parameters" : [ {
+        "name" : "searchQuery",
+        "value" : "AndyRebbeca EmardWill"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that the search result is correct",
+      "time" : {
+        "start" : 1643907691717,
+        "stop" : 1643907692821,
+        "duration" : 1104
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search-result/ion-card-content/app-professional-card\") should have([text 'AndyRebbeca', text 'EmardWill'])",
+        "time" : {
+          "start" : 1643907691717,
+          "stop" : 1643907692719,
+          "duration" : 1002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-search-result/ion-card-content/app-service-link\") should have(text 'Regional Factors Officer (y2spkme70)')",
+        "time" : {
+          "start" : 1643907692719,
+          "stop" : 1643907692767,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-search-result/ion-card-content/app-price\") get text()",
+        "time" : {
+          "start" : 1643907692767,
+          "stop" : 1643907692821,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "firstName",
+        "value" : "AndyRebbeca"
+      }, {
+        "name" : "lastName",
+        "value" : "EmardWill"
+      }, {
+        "name" : "serviceName",
+        "value" : "Regional Factors Officer (y2spkme70)"
+      }, {
+        "name" : "servicePrice",
+        "value" : "4096392"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select a service",
+      "time" : {
+        "start" : 1643907692821,
+        "stop" : 1643907693166,
+        "duration" : 345
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search-result ion-card-content app-service-link a\") click()",
+        "time" : {
+          "start" : 1643907693031,
+          "stop" : 1643907693166,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "803ffc6bfccd4604",
+        "name" : "Screenshot",
+        "source" : "803ffc6bfccd4604.png",
+        "type" : "image/png",
+        "size" : 93369
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that the service data is correct",
+      "time" : {
+        "start" : 1643907693166,
+        "stop" : 1643907694199,
+        "duration" : 1033
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-service-widget/app-service-title\") should have(text 'Regional Factors Officer (y2spkme70)')",
+        "time" : {
+          "start" : 1643907693166,
+          "stop" : 1643907693924,
+          "duration" : 758
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-price\") get text()",
+        "time" : {
+          "start" : 1643907693925,
+          "stop" : 1643907693979,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-duration-viewer\") should have(text '1')",
+        "time" : {
+          "start" : 1643907693979,
+          "stop" : 1643907694042,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-professional-card\") should have([text 'AndyRebbeca', text 'EmardWill'])",
+        "time" : {
+          "start" : 1643907694042,
+          "stop" : 1643907694141,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget\") should have(text '182olfqjpmtlnm8npymterbyzbv8fp3ivbn7u0jc1ttu7eht9m1atnm0c03zih5mi9cicoe08huk7jtho7hptod1lb1dwrrm2uca0j7qkszv00j6y8muj6swmf2mc46ir2f14ihsya8vw5jdzvsoienynmw2nr6tds2cj0h2a158uujpvi31iv5azaddwgijz9fsqdutk7rif4pjxa80c27lorc3f3bd7h0bclt9oew5u6mynrqhspwy4f55xggzsocjahetqcui88x770swkiumlsltt8j0t9vyjspdutw3fqztna5hroukhv6kkqlovxtmzv16cbmdqdsh5aukisz954mihnxwbsuabcnobkgg2ojem54y3xvwlfkfsllkb2ytq12mh9y8qb5t2mwti7j6xjr42uer4aqhkdn9sixy3zuu1sk2t6m3126riuwaaux4aha8mr8sgzp0nuuduytu5amxxfasl43gk3b89j2vhbrvod1m5wwfk4gf6r0q8pcgl9ts2zt0zkowocdmhjv')",
+        "time" : {
+          "start" : 1643907694141,
+          "stop" : 1643907694199,
+          "duration" : 58
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "serviceName",
+        "value" : "Regional Factors Officer (y2spkme70)"
+      }, {
+        "name" : "servicePrice",
+        "value" : "4096392"
+      }, {
+        "name" : "serviceDuration",
+        "value" : "60"
+      }, {
+        "name" : "firstName",
+        "value" : "AndyRebbeca"
+      }, {
+        "name" : "lastName",
+        "value" : "EmardWill"
+      }, {
+        "name" : "serviceDescription",
+        "value" : "182olfqjpmtlnm8npymterbyzbv8fp3ivbn7u0jc1ttu7eht9m1atnm0c03zih5mi9cicoe08huk7jtho7hptod1lb1dwrrm2uca0j7qkszv00j6y8muj6swmf2mc46ir2f14ihsya8vw5jdzvsoienynmw2nr6tds2cj0h2a158uujpvi31iv5azaddwgijz9fsqdutk7rif4pjxa80c27lorc3f3bd7h0bclt9oew5u6mynrqhspwy4f55xggzsocjahetqcui88x770swkiumlsltt8j0t9vyjspdutw3fqztna5hroukhv6kkqlovxtmzv16cbmdqdsh5aukisz954mihnxwbsuabcnobkgg2ojem54y3xvwlfkfsllkb2ytq12mh9y8qb5t2mwti7j6xjr42uer4aqhkdn9sixy3zuu1sk2t6m3126riuwaaux4aha8mr8sgzp0nuuduytu5amxxfasl43gk3b89j2vhbrvod1m5wwfk4gf6r0q8pcgl9ts2zt0zkowocdmhjv"
+      } ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1643907694455,
+        "stop" : 1643907694528,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a576d666710a4805",
+      "name" : "Last screenshot",
+      "source" : "a576d666710a4805.png",
+      "type" : "image/png",
+      "size" : 67806
+    }, {
+      "uid" : "88908c875041aaac",
+      "name" : "Page source",
+      "source" : "88908c875041aaac.html",
+      "type" : "text/plain",
+      "size" : 149054
+    }, {
+      "uid" : "ca03cf797e5fa3ea",
+      "name" : "Browser console logs",
+      "source" : "ca03cf797e5fa3ea.bin",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "desktop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:desktopTests.smokeTests.PositiveTests]/[method:t00700()]"
+  }, {
+    "name" : "story",
+    "value" : "Search from the main page"
+  }, {
+    "name" : "owner",
+    "value" : "Kratakey"
+  }, {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-738"
+  }, {
+    "name" : "thread",
+    "value" : "3292@fv-az39-738.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testClass",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "t00700"
+  }, {
+    "name" : "suite",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Kratakey",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "e95c221a62c100a9",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/17//#testresult/e95c221a62c100a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643907598631,
+          "stop" : 1643907608798,
+          "duration" : 10167
+        }
+      }, {
+        "uid" : "f13a51ff39e58164",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/16//#testresult/f13a51ff39e58164",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643906337421,
+          "stop" : 1643906349104,
+          "duration" : 11683
+        }
+      }, {
+        "uid" : "e955e6f05e25df50",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/15//#testresult/e955e6f05e25df50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643905032160,
+          "stop" : 1643905042578,
+          "duration" : 10418
+        }
+      }, {
+        "uid" : "3d6d12e6b0778657",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/14//#testresult/3d6d12e6b0778657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643904246397,
+          "stop" : 1643904257710,
+          "duration" : 11313
+        }
+      }, {
+        "uid" : "513c77ade3930913",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/13//#testresult/513c77ade3930913",
+        "status" : "broken",
+        "statusDetails" : "Invalid 'remote' parameter: ",
+        "time" : {
+          "start" : 1643903173920,
+          "stop" : 1643903174826,
+          "duration" : 906
+        }
+      }, {
+        "uid" : "d19756e36653d96c",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/11//#testresult/d19756e36653d96c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902265629,
+          "stop" : 1643902276027,
+          "duration" : 10398
+        }
+      }, {
+        "uid" : "5e8ba5c2c3774fa5",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/10//#testresult/5e8ba5c2c3774fa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803509487,
+          "stop" : 1643803520074,
+          "duration" : 10587
+        }
+      }, {
+        "uid" : "306f31d6c66de39a",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/9//#testresult/306f31d6c66de39a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643802167380,
+          "stop" : 1643802178581,
+          "duration" : 11201
+        }
+      }, {
+        "uid" : "1df1e504f517828",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/8//#testresult/1df1e504f517828",
+        "status" : "failed",
+        "statusDetails" : "Element not found {app-search-result}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801407452.9.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801407452.9.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-search-result\"}",
+        "time" : {
+          "start" : 1643801389208,
+          "stop" : 1643801408096,
+          "duration" : 18888
+        }
+      }, {
+        "uid" : "d0d65e622888dcc7",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/7//#testresult/d0d65e622888dcc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643800050419,
+          "stop" : 1643800061237,
+          "duration" : 10818
+        }
+      } ]
+    },
+    "tags" : [ "desktop" ]
+  },
+  "source" : "a7d8021c27bc39d6.json",
+  "parameterValues" : [ ]
+}

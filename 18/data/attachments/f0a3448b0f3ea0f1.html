@@ -1,0 +1,70 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset = UTF-8">
+    <script src="https://yastatic.net/jquery/2.2.3/jquery.min.js" crossorigin="anonymous"></script>
+
+    <link href="https://yastatic.net/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://yastatic.net/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <link type="text/css" href="https://yandex.st/highlightjs/8.0/styles/github.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/languages/bash.min.js"></script>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/languages/json.min.js"></script>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/languages/xml.min.js"></script>
+    <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <pre><code>POST: https://app.maxibooking.ru:8000/en/api/accounts/services/</code></pre>
+</div>
+
+    <h4>Body</h4>
+    <div>
+        <pre><code>{
+    "duration": 15,
+    "is_enabled": true,
+    "service_type": "online",
+    "name": "Forward Applications Planner (6zlp3xnx2zh)",
+    "description": "jh8lyjoa7rp0i3t9d8zpwy1qls7rm4h7s4ju20w5vcwz132wbyzeyax085pz5w4x7u8c210fap2kmvl61tbvi4vvw7488ic5xn05v1yk4n3pcwqkvsnd5g1vd4d6bm7epa6wph8k5kwtg",
+    "is_auto_order_confirmation": true,
+    "is_base_schedule": true,
+    "professional": 5656
+}</code></pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>
+                <pre><code><b>Authorization</b>: Bearer Rk0D3PMDDlWErfFXi1edVAnmgvlMsQ</code></pre>
+            </div>
+            <div>
+                <pre><code><b>Accept</b>: application/json, text/plain, */*</code></pre>
+            </div>
+            <div>
+                <pre><code><b>Content-Type</b>: application/json</code></pre>
+            </div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        <pre><code>curl -v -X POST 'https://app.maxibooking.ru:8000/en/api/accounts/services/' -H 'Authorization: Bearer Rk0D3PMDDlWErfFXi1edVAnmgvlMsQ' -H 'Accept: application/json, text/plain, */*' -H 'Content-Type: application/json' -d '{
+    "duration": 15,
+    "is_enabled": true,
+    "service_type": "online",
+    "name": "Forward Applications Planner (6zlp3xnx2zh)",
+    "description": "jh8lyjoa7rp0i3t9d8zpwy1qls7rm4h7s4ju20w5vcwz132wbyzeyax085pz5w4x7u8c210fap2kmvl61tbvi4vvw7488ic5xn05v1yk4n3pcwqkvsnd5g1vd4d6bm7epa6wph8k5kwtg",
+    "is_auto_order_confirmation": true,
+    "is_base_schedule": true,
+    "professional": 5656
+}'</code></pre>
+    </div>
+</body>
+</html>

@@ -1,0 +1,792 @@
+{
+  "uid" : "2ef4a43dedca559d",
+  "name" : "Remove master from favorites",
+  "fullName" : "desktopTests.smokeTests.PositiveTests.t00600",
+  "historyId" : "841b9b21a4eaaf7cc9aed6110133c488",
+  "time" : {
+    "start" : 1643907652604,
+    "stop" : 1643907665792,
+    "duration" : 13188
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open URL: https://app.maxibooking.ru",
+      "time" : {
+        "start" : 1643907653568,
+        "stop" : 1643907656093,
+        "duration" : 2525
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://app.maxibooking.ru",
+        "time" : {
+          "start" : 1643907653568,
+          "stop" : 1643907656093,
+          "duration" : 2525
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Pop-up skip",
+      "time" : {
+        "start" : 1643907656093,
+        "stop" : 1643907658182,
+        "duration" : 2089
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"h2.alert-sub-title\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907656294,
+          "stop" : 1643907656544,
+          "duration" : 250
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") press escape()",
+        "time" : {
+          "start" : 1643907657544,
+          "stop" : 1643907657626,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907657627,
+          "stop" : 1643907657982,
+          "duration" : 355
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Log In with cedric.lockman@ut.verow : etyuc8lvryb3ld",
+      "time" : {
+        "start" : 1643907658182,
+        "stop" : 1643907662607,
+        "duration" : 4425
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Change language to English",
+        "time" : {
+          "start" : 1643907658182,
+          "stop" : 1643907658725,
+          "duration" : 543
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") get text()",
+          "time" : {
+            "start" : 1643907658682,
+            "stop" : 1643907658725,
+            "duration" : 43
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click Menu > Log in",
+        "time" : {
+          "start" : 1643907658726,
+          "stop" : 1643907659963,
+          "duration" : 1237
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[menu='main-menu'].filter(visible)[0]\") click()",
+          "time" : {
+            "start" : 1643907659026,
+            "stop" : 1643907659175,
+            "duration" : 149
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"[id='main-menu.log-in']\") scroll into view(true)",
+          "time" : {
+            "start" : 1643907659475,
+            "stop" : 1643907659513,
+            "duration" : 38
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"[id='main-menu.log-in']\") get wrapped element()",
+            "time" : {
+              "start" : 1643907659475,
+              "stop" : 1643907659499,
+              "duration" : 24
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"[id='main-menu.log-in']\") click()",
+          "time" : {
+            "start" : 1643907659513,
+            "stop" : 1643907659660,
+            "duration" : 147
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"input[name='email'].filter(visible)[0]\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907659963,
+          "stop" : 1643907660060,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"input[name='email'].filter(visible)[0]\") get wrapped element()",
+          "time" : {
+            "start" : 1643907659963,
+            "stop" : 1643907660054,
+            "duration" : 91
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"input[name='email'].filter(visible)[0]\") set value(cedric.lockman@ut.verow)",
+        "time" : {
+          "start" : 1643907660060,
+          "stop" : 1643907660193,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"input[name='password'].filter(visible)[0]\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907660193,
+          "stop" : 1643907660227,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"input[name='password'].filter(visible)[0]\") get wrapped element()",
+          "time" : {
+            "start" : 1643907660193,
+            "stop" : 1643907660221,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"input[name='password'].filter(visible)[0]\") set value(etyuc8lvryb3ld)",
+        "time" : {
+          "start" : 1643907660227,
+          "stop" : 1643907660357,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-button[type='submit'].filter(visible)[0]\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907660559,
+          "stop" : 1643907660601,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"ion-button[type='submit'].filter(visible)[0]\") get wrapped element()",
+          "time" : {
+            "start" : 1643907660559,
+            "stop" : 1643907660596,
+            "duration" : 37
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"ion-button[type='submit'].filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643907660601,
+          "stop" : 1643907660684,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-login\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643907660684,
+          "stop" : 1643907662607,
+          "duration" : 1923
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "c0a43606b9824c2d",
+        "name" : "Login_info",
+        "source" : "c0a43606b9824c2d.png",
+        "type" : "image/png",
+        "size" : 30331
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 17,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Change language to English",
+      "time" : {
+        "start" : 1643907662607,
+        "stop" : 1643907663214,
+        "duration" : 607
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") get text()",
+        "time" : {
+          "start" : 1643907663107,
+          "stop" : 1643907663214,
+          "duration" : 107
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Menu > Bookmarks",
+      "time" : {
+        "start" : 1643907663214,
+        "stop" : 1643907664431,
+        "duration" : 1217
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='main-menu'].filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643907663515,
+          "stop" : 1643907663698,
+          "duration" : 183
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[id='main-menu.bookmarks']\") scroll into view(true)",
+        "time" : {
+          "start" : 1643907663998,
+          "stop" : 1643907664036,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[id='main-menu.bookmarks']\") get wrapped element()",
+          "time" : {
+            "start" : 1643907663998,
+            "stop" : 1643907664031,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"[id='main-menu.bookmarks']\") click()",
+        "time" : {
+          "start" : 1643907664036,
+          "stop" : 1643907664131,
+          "duration" : 95
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify online bookmarks",
+      "time" : {
+        "start" : 1643907664432,
+        "stop" : 1643907664823,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-bookmarks-list-page/main\") should have(text 'AndyRebbeca EmardWill')",
+        "time" : {
+          "start" : 1643907664432,
+          "stop" : 1643907664823,
+          "duration" : 391
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "masterName",
+        "value" : "AndyRebbeca EmardWill"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Remove bookmark",
+      "time" : {
+        "start" : 1643907664824,
+        "stop" : 1643907664894,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-saved-professional-toggle/ion-button\") click()",
+        "time" : {
+          "start" : 1643907664824,
+          "stop" : 1643907664894,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify bookmark deletion",
+      "time" : {
+        "start" : 1643907664895,
+        "stop" : 1643907665512,
+        "duration" : 617
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-bookmarks-list-page/main\") should not have(text 'AndyRebbeca EmardWill')",
+        "time" : {
+          "start" : 1643907664895,
+          "stop" : 1643907665512,
+          "duration" : 617
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "masterName",
+        "value" : "AndyRebbeca EmardWill"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1643907665720,
+        "stop" : 1643907665792,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "408d8f985a9483e1",
+      "name" : "Last screenshot",
+      "source" : "408d8f985a9483e1.png",
+      "type" : "image/png",
+      "size" : 24922
+    }, {
+      "uid" : "e9b88e6c0b116c98",
+      "name" : "Page source",
+      "source" : "e9b88e6c0b116c98.html",
+      "type" : "text/plain",
+      "size" : 123191
+    }, {
+      "uid" : "7aeb36861f5dd08f",
+      "name" : "Browser console logs",
+      "source" : "7aeb36861f5dd08f.txt",
+      "type" : "text/plain",
+      "size" : 141
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 38,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "desktop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:desktopTests.smokeTests.PositiveTests]/[method:t00600()]"
+  }, {
+    "name" : "story",
+    "value" : "Remove master from favorites"
+  }, {
+    "name" : "feature",
+    "value" : "Favorites"
+  }, {
+    "name" : "owner",
+    "value" : "Kratakey"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-738"
+  }, {
+    "name" : "thread",
+    "value" : "3292@fv-az39-738.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testClass",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "t00600"
+  }, {
+    "name" : "suite",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Kratakey",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "85fcdebe2dc3ed07",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/17//#testresult/85fcdebe2dc3ed07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643907567438,
+          "stop" : 1643907580526,
+          "duration" : 13088
+        }
+      }, {
+        "uid" : "8272d36839dfd2d1",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/16//#testresult/8272d36839dfd2d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643906303801,
+          "stop" : 1643906318009,
+          "duration" : 14208
+        }
+      }, {
+        "uid" : "e9e8db81816e0402",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/15//#testresult/e9e8db81816e0402",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643905001018,
+          "stop" : 1643905014114,
+          "duration" : 13096
+        }
+      }, {
+        "uid" : "aa216d5dd5a90995",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/14//#testresult/aa216d5dd5a90995",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643904211780,
+          "stop" : 1643904227279,
+          "duration" : 15499
+        }
+      }, {
+        "uid" : "8f87fc03a42fa0c6",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/13//#testresult/8f87fc03a42fa0c6",
+        "status" : "broken",
+        "statusDetails" : "Invalid 'remote' parameter: ",
+        "time" : {
+          "start" : 1643903172072,
+          "stop" : 1643903172976,
+          "duration" : 904
+        }
+      }, {
+        "uid" : "f004dac8ab7add01",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/11//#testresult/f004dac8ab7add01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902234381,
+          "stop" : 1643902247408,
+          "duration" : 13027
+        }
+      }, {
+        "uid" : "70ba4b7929948afd",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/10//#testresult/70ba4b7929948afd",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'JaeJoaquin WilkinsonHowell' {app-bookmarks-list-page/main}\nElement: '<main _ngcontent-dwb-c110 class=\"main\">Favorites\nThere is no favorites</main>'\nActual value: Favorites\nThere is no favorites\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643803490845.6.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643803490845.6.html\nTimeout: 10 s.",
+        "time" : {
+          "start" : 1643803467992,
+          "stop" : 1643803491401,
+          "duration" : 23409
+        }
+      }, {
+        "uid" : "4663699a670fb597",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/9//#testresult/4663699a670fb597",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'RaphaelAdolph KuhnStanton' {app-bookmarks-list-page/main}\nElement: '<main _ngcontent-rgf-c110 class=\"main\">Favorites\nThere is no favorites</main>'\nActual value: Favorites\nThere is no favorites\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802148030.6.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643802148030.6.html\nTimeout: 10 s.",
+        "time" : {
+          "start" : 1643802124771,
+          "stop" : 1643802148638,
+          "duration" : 23867
+        }
+      }, {
+        "uid" : "a023bfc1612b8fbb",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/8//#testresult/a023bfc1612b8fbb",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'CliffordMary KlockoHowe' {app-bookmarks-list-page/main}\nElement: '<main _ngcontent-yxy-c110 class=\"main\">Favorites\nThere is no favorites</main>'\nActual value: Favorites\nThere is no favorites\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801361784.7.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801361784.7.html\nTimeout: 10 s.",
+        "time" : {
+          "start" : 1643801338920,
+          "stop" : 1643801362388,
+          "duration" : 23468
+        }
+      }, {
+        "uid" : "f01410cbbe55826f",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/7//#testresult/f01410cbbe55826f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643800018827,
+          "stop" : 1643800032437,
+          "duration" : 13610
+        }
+      } ]
+    },
+    "tags" : [ "desktop" ]
+  },
+  "source" : "2ef4a43dedca559d.json",
+  "parameterValues" : [ ]
+}
