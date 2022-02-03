@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Feb 03 15:40:04 GMT 2022","Thu Feb 03 15:40:48 GMT 2022","43962","","desktopTests.regressionTests.BookingTests","","desktopTests.regressionTests.BookingTests","t00001","Booking: your own service for another person",""
+"passed","Thu Feb 03 15:42:51 GMT 2022","Thu Feb 03 15:43:20 GMT 2022","29173","","desktopTests.regressionTests.SearchTests","","desktopTests.regressionTests.SearchTests","t00000","'Best works' will not show if professional doesn't have any",""
+"passed","Thu Feb 03 15:38:59 GMT 2022","Thu Feb 03 15:40:04 GMT 2022","64370","","desktopTests.regressionTests.BookingTests","","desktopTests.regressionTests.BookingTests","t00000","Booking: today's date",""
+"failed","Thu Feb 03 15:41:36 GMT 2022","Thu Feb 03 15:42:15 GMT 2022","39761","","desktopTests.regressionTests.BookingTests","","desktopTests.regressionTests.BookingTests","t00100","Booking: time step, can't navigate back in time via arrows",""
+"passed","Thu Feb 03 15:40:48 GMT 2022","Thu Feb 03 15:41:36 GMT 2022","47713","","desktopTests.regressionTests.BookingTests","","desktopTests.regressionTests.BookingTests","t00002","Booking: a service for another person",""
+"passed","Thu Feb 03 15:42:16 GMT 2022","Thu Feb 03 15:42:50 GMT 2022","33429","","desktopTests.regressionTests.UserProfileTests","","desktopTests.regressionTests.UserProfileTests","t00000","Profile: delete address that was default",""

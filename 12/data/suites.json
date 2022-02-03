@@ -1,0 +1,95 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "desktopTests.regressionTests.BookingTests",
+    "children" : [ {
+      "name" : "Booking: today's date",
+      "uid" : "f01cb8fcce270a95",
+      "parentUid" : "bb13bfea3a1049f956b84f1d23af668c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643902739826,
+        "stop" : 1643902804196,
+        "duration" : 64370
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Booking: your own service for another person",
+      "uid" : "fcf72150127b12cf",
+      "parentUid" : "bb13bfea3a1049f956b84f1d23af668c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643902804390,
+        "stop" : 1643902848352,
+        "duration" : 43962
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Booking: a service for another person",
+      "uid" : "80d635a5544411cf",
+      "parentUid" : "bb13bfea3a1049f956b84f1d23af668c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643902848367,
+        "stop" : 1643902896080,
+        "duration" : 47713
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Booking: time step, can't navigate back in time via arrows",
+      "uid" : "37e1d16b72d8323c",
+      "parentUid" : "bb13bfea3a1049f956b84f1d23af668c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643902896097,
+        "stop" : 1643902935858,
+        "duration" : 39761
+      },
+      "flaky" : true,
+      "newFailed" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bb13bfea3a1049f956b84f1d23af668c"
+  }, {
+    "name" : "desktopTests.regressionTests.UserProfileTests",
+    "children" : [ {
+      "name" : "Profile: delete address that was default",
+      "uid" : "e67e088d7f9bcc70",
+      "parentUid" : "f39fe91c73738ea9e2cf325834459883",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643902936839,
+        "stop" : 1643902970268,
+        "duration" : 33429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f39fe91c73738ea9e2cf325834459883"
+  }, {
+    "name" : "desktopTests.regressionTests.SearchTests",
+    "children" : [ {
+      "name" : "'Best works' will not show if professional doesn't have any",
+      "uid" : "ec77cbb4547fc2ef",
+      "parentUid" : "6bdbedfbb3edac5b96ac393fc4aab69a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643902971110,
+        "stop" : 1643903000283,
+        "duration" : 29173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6bdbedfbb3edac5b96ac393fc4aab69a"
+  } ],
+  "name" : "suites"
+}

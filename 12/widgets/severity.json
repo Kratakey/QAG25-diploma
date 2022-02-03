@@ -1,0 +1,61 @@
+[ {
+  "uid" : "37e1d16b72d8323c",
+  "name" : "Booking: time step, can't navigate back in time via arrows",
+  "time" : {
+    "start" : 1643902896097,
+    "stop" : 1643902935858,
+    "duration" : 39761
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "e67e088d7f9bcc70",
+  "name" : "Profile: delete address that was default",
+  "time" : {
+    "start" : 1643902936839,
+    "stop" : 1643902970268,
+    "duration" : 33429
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fcf72150127b12cf",
+  "name" : "Booking: your own service for another person",
+  "time" : {
+    "start" : 1643902804390,
+    "stop" : 1643902848352,
+    "duration" : 43962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec77cbb4547fc2ef",
+  "name" : "'Best works' will not show if professional doesn't have any",
+  "time" : {
+    "start" : 1643902971110,
+    "stop" : 1643903000283,
+    "duration" : 29173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f01cb8fcce270a95",
+  "name" : "Booking: today's date",
+  "time" : {
+    "start" : 1643902739826,
+    "stop" : 1643902804196,
+    "duration" : 64370
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "80d635a5544411cf",
+  "name" : "Booking: a service for another person",
+  "time" : {
+    "start" : 1643902848367,
+    "stop" : 1643902896080,
+    "duration" : 47713
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
