@@ -1,7 +1,7 @@
 ## Параметры запуска для командной строки
 
 
-###Пресеты через system.properties:
+##Пресеты через system.properties:
 
 * `./gradle clean test -Denvironment=local_chrome`
 
@@ -12,11 +12,11 @@
 * `./gradle clean test -Denvironment=remote_safari`
 
 
-###Запуск с параметрами, пример:
+##Запуск с параметрами, пример:
 
 `./gradle clean test -DbaseUrl=https://app.maxibooking.ru/ -DbrowserName=chrome`
 
-###Задачи:
+##Задачи:
 * `test` - запуск по-умолчанию
 * `desktop` - запуск desktop тестов с web-драйвером
 * `local` - запуск mobile тестов локально на реальном устройстве
@@ -24,7 +24,7 @@
 * `selenoid` - запуск mobile удаленно в Selenoid
 * `browserstack` - запуск mobile удаленно в Browserstack
 
-###Доступные параметры для (использовать только для desktop запуска):
+##Доступные параметры для (использовать только для desktop запуска):
 
 * `browserName` - название браузера, default: `chrome` 
 
