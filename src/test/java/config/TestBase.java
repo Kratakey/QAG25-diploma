@@ -89,9 +89,6 @@ public class TestBase extends TestData {
 
     @BeforeAll
     public static void init() {
-        if (!config.getRemote().equals("")) {
-            Configuration.remote = config.getRemote();
-        }
         if (!deviceFarm.equals("desktop")) {
             Configuration.browserSize = null;
             Configuration.startMaximized = config.getStartMaximized();
@@ -112,6 +109,7 @@ public class TestBase extends TestData {
             case "desktop":
                 Configuration.browser = config.getBrowserName();
                 Configuration.browserSize = config.getBrowserSize();
+                Configuration.remote = config.getRemote();
                 break;
             default:
                 fail();
