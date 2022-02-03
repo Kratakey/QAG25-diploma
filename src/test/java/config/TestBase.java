@@ -90,7 +90,6 @@ public class TestBase extends TestData {
     @BeforeAll
     public static void init() {
         if (!config.getRemote().equals("")) {
-            System.setProperty("environment", "remote");
             Configuration.remote = config.getRemote();
         }
         if (!deviceFarm.equals("desktop")) {
