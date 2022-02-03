@@ -210,7 +210,7 @@ public class LogIn extends config.TestBase {
     public void popupSkip() {
         step("Pop-up skip", () -> {
             sleep(200);
-            $("#alert-1-sub-hdr").shouldBe(visible, Duration.ofSeconds(10));
+            $("h2.alert-sub-title").shouldBe(visible, Duration.ofSeconds(10));
             sleep(1000);
             closeAlert();
             $("ion-alert").shouldNotBe(visible, Duration.ofSeconds(10));
