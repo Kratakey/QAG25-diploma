@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "bb13bfea3a1049f956b84f1d23af668c",
+    "name" : "desktopTests.regressionTests.BookingTests",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "05085d33819b1d128d3bbc90bce4bade",
+    "name" : "desktopTests.smokeTests.PositiveTests",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "6bdbedfbb3edac5b96ac393fc4aab69a",
+    "name" : "desktopTests.regressionTests.SearchTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "f39fe91c73738ea9e2cf325834459883",
+    "name" : "desktopTests.regressionTests.UserProfileTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

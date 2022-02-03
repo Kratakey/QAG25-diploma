@@ -1,0 +1,3 @@
+[2022-02-03T16:03:14+0000] [SEVERE] https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js 0:836359 "Registration id is not correct."
+[2022-02-03T16:03:21+0000] [SEVERE] https://app.maxibooking.ru:8000/en/api/communication/messages/list/?interlocutor=10660 - Failed to load resource: the server responded with a status of 400 (Bad Request)
+[2022-02-03T16:03:31+0000] [SEVERE] https://app.maxibooking.ru:8000/en/api/communication/messages/list/?interlocutor=10660 - Failed to load resource: the server responded with a status of 400 (Bad Request)

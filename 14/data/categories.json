@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state: element click intercepted: Element <ion-menu-toggle _ngcontent-udl-c94=\"\" menu=\"main-menu\" class=\"md hydrated\">...</ion-menu-toggle> is not clickable at point (28, 40). Other element would receive the click: <ion-menu _ngcontent-udl-c173=\"\" contentid=\"main-content\" menuid=\"flag-menu\" side=\"end\" role=\"navigation\" class=\"md menu-type-overlay menu-enabled menu-side-end hydrated show-menu\" content-id=\"main-content\" menu-id=\"flag-menu\">...</ion-menu>\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643903759487.0.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643903759487.0.html\nTimeout: 10 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <ion-menu-toggle _ngcontent-udl-c94=\"\" menu=\"main-menu\" class=\"md hydrated\">...</ion-menu-toggle> is not clickable at point (28, 40). Other element would receive the click: <ion-menu _ngcontent-udl-c173=\"\" contentid=\"main-content\" menuid=\"flag-menu\" side=\"end\" role=\"navigation\" class=\"md menu-type-overlay menu-enabled menu-side-end hydrated show-menu\" content-id=\"main-content\" menu-id=\"flag-menu\">...</ion-menu>",
+      "children" : [ {
+        "name" : "Booking: today's date",
+        "uid" : "43c06e3292c590c4",
+        "parentUid" : "4723714342950fc6a86c420e5cc1aa01",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643903706304,
+          "stop" : 1643903760532,
+          "duration" : 54228
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4723714342950fc6a86c420e5cc1aa01"
+    }, {
+      "name" : "Invalid element state: element click intercepted: Element <ion-menu-toggle _ngcontent-udc-c94=\"\" menu=\"main-menu\" class=\"md hydrated\">...</ion-menu-toggle> is not clickable at point (28, 40). Other element would receive the click: <ion-menu _ngcontent-udc-c173=\"\" contentid=\"main-content\" menuid=\"flag-menu\" side=\"end\" role=\"navigation\" class=\"md menu-type-overlay menu-enabled menu-side-end hydrated show-menu\" content-id=\"main-content\" menu-id=\"flag-menu\">...</ion-menu>\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643903889858.1.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643903889858.1.html\nTimeout: 10 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <ion-menu-toggle _ngcontent-udc-c94=\"\" menu=\"main-menu\" class=\"md hydrated\">...</ion-menu-toggle> is not clickable at point (28, 40). Other element would receive the click: <ion-menu _ngcontent-udc-c173=\"\" contentid=\"main-content\" menuid=\"flag-menu\" side=\"end\" role=\"navigation\" class=\"md menu-type-overlay menu-enabled menu-side-end hydrated show-menu\" content-id=\"main-content\" menu-id=\"flag-menu\">...</ion-menu>",
+      "children" : [ {
+        "name" : "Booking: time step, can't navigate back in time via arrows",
+        "uid" : "a11bd43f2dd161b5",
+        "parentUid" : "963445af73858cf0bc681303ee18ab48",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643903852091,
+          "stop" : 1643903890795,
+          "duration" : 38704
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "963445af73858cf0bc681303ee18ab48"
+    }, {
+      "name" : "Invalid element state: element click intercepted: Element <ion-button _ngcontent-qwv-c221=\"\" type=\"submit\" fill=\"clear\" size=\"default\" aria-disabled=\"true\" class=\"md button button-default button-clear button-disabled ion-activatable ion-focusable hydrated\" disabled=\"\">...</ion-button> is not clickable at point (1219, 1039). Other element would receive the click: <ion-item _ngcontent-qwv-c221=\"\" class=\"ion-item-bordered round-corners disable-highlight item-interactive item-input item md ion-focusable hydrated ion-pristine ion-invalid ion-touched\">...</ion-item>\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643904211061.2.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643904211061.2.html\nTimeout: 10 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <ion-button _ngcontent-qwv-c221=\"\" type=\"submit\" fill=\"clear\" size=\"default\" aria-disabled=\"true\" class=\"md button button-default button-clear button-disabled ion-activatable ion-focusable hydrated\" disabled=\"\">...</ion-button> is not clickable at point (1219, 1039). Other element would receive the click: <ion-item _ngcontent-qwv-c221=\"\" class=\"ion-item-bordered round-corners disable-highlight item-interactive item-input item md ion-focusable hydrated ion-pristine ion-invalid ion-touched\">...</ion-item>",
+      "children" : [ {
+        "name" : "Chat test",
+        "uid" : "100a99a0bff94004",
+        "parentUid" : "6a1a785beb35e70224729c6f5eb4037e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643904185332,
+          "stop" : 1643904211776,
+          "duration" : 26444
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a1a785beb35e70224729c6f5eb4037e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
