@@ -1,0 +1,595 @@
+{
+  "uid" : "f13a51ff39e58164",
+  "name" : "Main page search: professional name",
+  "fullName" : "desktopTests.smokeTests.PositiveTests.t00700",
+  "historyId" : "a9c95d02ae418ca0993a43805e60e1ce",
+  "time" : {
+    "start" : 1643906337421,
+    "stop" : 1643906349104,
+    "duration" : 11683
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open URL: https://app.maxibooking.ru",
+      "time" : {
+        "start" : 1643906338283,
+        "stop" : 1643906342029,
+        "duration" : 3746
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://app.maxibooking.ru",
+        "time" : {
+          "start" : 1643906338283,
+          "stop" : 1643906342029,
+          "duration" : 3746
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Pop-up skip",
+      "time" : {
+        "start" : 1643906342029,
+        "stop" : 1643906343890,
+        "duration" : 1861
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"h2.alert-sub-title\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643906342229,
+          "stop" : 1643906342306,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") press escape()",
+        "time" : {
+          "start" : 1643906343306,
+          "stop" : 1643906343372,
+          "duration" : 66
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643906343372,
+          "stop" : 1643906343689,
+          "duration" : 317
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Change language to English",
+      "time" : {
+        "start" : 1643906343890,
+        "stop" : 1643906344431,
+        "duration" : 541
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") get text()",
+        "time" : {
+          "start" : 1643906344390,
+          "stop" : 1643906344431,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Main page: Search without quotes BaoTatyana WittingHaley",
+      "time" : {
+        "start" : 1643906344432,
+        "stop" : 1643906345927,
+        "duration" : 1495
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"ion-searchbar input\") set value(BaoTatyana WittingHaley)",
+        "time" : {
+          "start" : 1643906344432,
+          "stop" : 1643906344549,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-searchbar input\") press enter()",
+        "time" : {
+          "start" : 1643906345549,
+          "stop" : 1643906345586,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "65299200acefd98a",
+        "name" : "Screenshot",
+        "source" : "65299200acefd98a.png",
+        "type" : "image/png",
+        "size" : 283876
+      } ],
+      "parameters" : [ {
+        "name" : "searchQuery",
+        "value" : "BaoTatyana WittingHaley"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that the search result is correct",
+      "time" : {
+        "start" : 1643906345927,
+        "stop" : 1643906347120,
+        "duration" : 1193
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search-result/ion-card-content/app-professional-card\") should have([text 'BaoTatyana', text 'WittingHaley'])",
+        "time" : {
+          "start" : 1643906345928,
+          "stop" : 1643906347045,
+          "duration" : 1117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-search-result/ion-card-content/app-service-link\") should have(text 'Dynamic Identity Administrator (rb6xija4)')",
+        "time" : {
+          "start" : 1643906347045,
+          "stop" : 1643906347083,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-search-result/ion-card-content/app-price\") get text()",
+        "time" : {
+          "start" : 1643906347083,
+          "stop" : 1643906347120,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "firstName",
+        "value" : "BaoTatyana"
+      }, {
+        "name" : "lastName",
+        "value" : "WittingHaley"
+      }, {
+        "name" : "serviceName",
+        "value" : "Dynamic Identity Administrator (rb6xija4)"
+      }, {
+        "name" : "servicePrice",
+        "value" : "7637318"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select a service",
+      "time" : {
+        "start" : 1643906347120,
+        "stop" : 1643906347428,
+        "duration" : 308
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search-result ion-card-content app-service-link a\") click()",
+        "time" : {
+          "start" : 1643906347319,
+          "stop" : 1643906347428,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "8d2fa9a406f60fa2",
+        "name" : "Screenshot",
+        "source" : "8d2fa9a406f60fa2.png",
+        "type" : "image/png",
+        "size" : 91740
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that the service data is correct",
+      "time" : {
+        "start" : 1643906347429,
+        "stop" : 1643906348822,
+        "duration" : 1393
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-service-widget/app-service-title\") should have(text 'Dynamic Identity Administrator (rb6xija4)')",
+        "time" : {
+          "start" : 1643906347429,
+          "stop" : 1643906348640,
+          "duration" : 1211
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-price\") get text()",
+        "time" : {
+          "start" : 1643906348640,
+          "stop" : 1643906348669,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-duration-viewer\") should have(text '1')",
+        "time" : {
+          "start" : 1643906348669,
+          "stop" : 1643906348697,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-professional-card\") should have([text 'BaoTatyana', text 'WittingHaley'])",
+        "time" : {
+          "start" : 1643906348697,
+          "stop" : 1643906348771,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget\") should have(text 'a9x684ughvg7gj5uz3u71l0ueq36vqvpx0l12ni6jlv754ul3zxaqj4vst1dwhgiart0ft6bbsud7580bjqv4ehdw3ana5rtq3ohnqar3au5cqzrkwx43ap0l4mxvsmu88va5ein6xynhgrzcptby4zukqks1dshc51czarm957yltfnlwi53zagfyomd8pf3n70bp3tn')",
+        "time" : {
+          "start" : 1643906348771,
+          "stop" : 1643906348822,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "serviceName",
+        "value" : "Dynamic Identity Administrator (rb6xija4)"
+      }, {
+        "name" : "servicePrice",
+        "value" : "7637318"
+      }, {
+        "name" : "serviceDuration",
+        "value" : "60"
+      }, {
+        "name" : "firstName",
+        "value" : "BaoTatyana"
+      }, {
+        "name" : "lastName",
+        "value" : "WittingHaley"
+      }, {
+        "name" : "serviceDescription",
+        "value" : "a9x684ughvg7gj5uz3u71l0ueq36vqvpx0l12ni6jlv754ul3zxaqj4vst1dwhgiart0ft6bbsud7580bjqv4ehdw3ana5rtq3ohnqar3au5cqzrkwx43ap0l4mxvsmu88va5ein6xynhgrzcptby4zukqks1dshc51czarm957yltfnlwi53zagfyomd8pf3n70bp3tn"
+      } ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1643906349035,
+        "stop" : 1643906349104,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5cb5ecfd95a80970",
+      "name" : "Last screenshot",
+      "source" : "5cb5ecfd95a80970.png",
+      "type" : "image/png",
+      "size" : 67953
+    }, {
+      "uid" : "9ec542f5cef0b830",
+      "name" : "Page source",
+      "source" : "9ec542f5cef0b830.html",
+      "type" : "text/plain",
+      "size" : 148718
+    }, {
+      "uid" : "28c5fbc151ec0f5",
+      "name" : "Browser console logs",
+      "source" : "28c5fbc151ec0f5.bin",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "desktop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:desktopTests.smokeTests.PositiveTests]/[method:t00700()]"
+  }, {
+    "name" : "story",
+    "value" : "Search from the main page"
+  }, {
+    "name" : "owner",
+    "value" : "Kratakey"
+  }, {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-649"
+  }, {
+    "name" : "thread",
+    "value" : "3290@fv-az77-649.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testClass",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "t00700"
+  }, {
+    "name" : "suite",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Kratakey",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "e955e6f05e25df50",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/15//#testresult/e955e6f05e25df50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643905032160,
+          "stop" : 1643905042578,
+          "duration" : 10418
+        }
+      }, {
+        "uid" : "3d6d12e6b0778657",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/14//#testresult/3d6d12e6b0778657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643904246397,
+          "stop" : 1643904257710,
+          "duration" : 11313
+        }
+      }, {
+        "uid" : "513c77ade3930913",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/13//#testresult/513c77ade3930913",
+        "status" : "broken",
+        "statusDetails" : "Invalid 'remote' parameter: ",
+        "time" : {
+          "start" : 1643903173920,
+          "stop" : 1643903174826,
+          "duration" : 906
+        }
+      }, {
+        "uid" : "d19756e36653d96c",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/11//#testresult/d19756e36653d96c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902265629,
+          "stop" : 1643902276027,
+          "duration" : 10398
+        }
+      }, {
+        "uid" : "5e8ba5c2c3774fa5",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/10//#testresult/5e8ba5c2c3774fa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803509487,
+          "stop" : 1643803520074,
+          "duration" : 10587
+        }
+      }, {
+        "uid" : "306f31d6c66de39a",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/9//#testresult/306f31d6c66de39a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643802167380,
+          "stop" : 1643802178581,
+          "duration" : 11201
+        }
+      }, {
+        "uid" : "1df1e504f517828",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/8//#testresult/1df1e504f517828",
+        "status" : "failed",
+        "statusDetails" : "Element not found {app-search-result}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801407452.9.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801407452.9.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-search-result\"}",
+        "time" : {
+          "start" : 1643801389208,
+          "stop" : 1643801408096,
+          "duration" : 18888
+        }
+      }, {
+        "uid" : "d0d65e622888dcc7",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/7//#testresult/d0d65e622888dcc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643800050419,
+          "stop" : 1643800061237,
+          "duration" : 10818
+        }
+      } ]
+    },
+    "tags" : [ "desktop" ]
+  },
+  "source" : "f13a51ff39e58164.json",
+  "parameterValues" : [ ]
+}

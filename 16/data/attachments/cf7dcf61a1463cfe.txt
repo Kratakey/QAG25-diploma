@@ -1,0 +1,15 @@
+[2022-02-03T16:34:31+0000] [SEVERE] https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js 0:836359 "Registration id is not correct."
+[2022-02-03T16:34:36+0000] [SEVERE] https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js 0:836359 "Registration id is not correct."
+[2022-02-03T16:34:36+0000] [SEVERE] https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js 0:836359 "Registration id is not correct."
+[2022-02-03T16:34:46+0000] [SEVERE] https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js 0:559767 "ASSERT: can not be animating"
+[2022-02-03T16:34:46+0000] [SEVERE] https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js 0:382981 Error: ASSERT: can not be animating
+    at p (https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js:1:559777)
+    at l.updateState (https://app.maxibooking.ru/64-es2015.6128468d33e376d003f9.js:1:6416)
+    at l.onSplitPaneChanged (https://app.maxibooking.ru/64-es2015.6128468d33e376d003f9.js:1:2824)
+    at HTMLBodyElement.<anonymous> (https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js:1:366294)
+    at nt (https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js:1:373553)
+    at Object.emit (https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js:1:373440)
+    at o.visibleChanged (https://app.maxibooking.ru/80-es2015.b17c2aff2b9c46013b31.js:1:562)
+    at https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js:1:378697
+    at Array.map (<anonymous>)
+    at https://app.maxibooking.ru/main-es2015.bab79fe4a121ca0524b9.js:1:378681 undefined
