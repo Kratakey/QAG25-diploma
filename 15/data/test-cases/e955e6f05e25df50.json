@@ -1,0 +1,586 @@
+{
+  "uid" : "e955e6f05e25df50",
+  "name" : "Main page search: professional name",
+  "fullName" : "desktopTests.smokeTests.PositiveTests.t00700",
+  "historyId" : "a9c95d02ae418ca0993a43805e60e1ce",
+  "time" : {
+    "start" : 1643905032160,
+    "stop" : 1643905042578,
+    "duration" : 10418
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open URL: https://app.maxibooking.ru",
+      "time" : {
+        "start" : 1643905033139,
+        "stop" : 1643905035839,
+        "duration" : 2700
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://app.maxibooking.ru",
+        "time" : {
+          "start" : 1643905033139,
+          "stop" : 1643905035839,
+          "duration" : 2700
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Pop-up skip",
+      "time" : {
+        "start" : 1643905035839,
+        "stop" : 1643905037858,
+        "duration" : 2019
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"h2.alert-sub-title\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643905036039,
+          "stop" : 1643905036116,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") press escape()",
+        "time" : {
+          "start" : 1643905037116,
+          "stop" : 1643905037230,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643905037230,
+          "stop" : 1643905037658,
+          "duration" : 428
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Change language to English",
+      "time" : {
+        "start" : 1643905037858,
+        "stop" : 1643905038407,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") get text()",
+        "time" : {
+          "start" : 1643905038359,
+          "stop" : 1643905038407,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Main page: Search without quotes ShelbyMarcelle SchulistKautzer",
+      "time" : {
+        "start" : 1643905038407,
+        "stop" : 1643905039951,
+        "duration" : 1544
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"ion-searchbar input\") set value(ShelbyMarcelle SchulistKautzer)",
+        "time" : {
+          "start" : 1643905038407,
+          "stop" : 1643905038548,
+          "duration" : 141
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-searchbar input\") press enter()",
+        "time" : {
+          "start" : 1643905039549,
+          "stop" : 1643905039595,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "64f6a35980fd66c5",
+        "name" : "Screenshot",
+        "source" : "64f6a35980fd66c5.png",
+        "type" : "image/png",
+        "size" : 284384
+      } ],
+      "parameters" : [ {
+        "name" : "searchQuery",
+        "value" : "ShelbyMarcelle SchulistKautzer"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that the search result is correct",
+      "time" : {
+        "start" : 1643905039951,
+        "stop" : 1643905041009,
+        "duration" : 1058
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search-result/ion-card-content/app-professional-card\") should have([text 'ShelbyMarcelle', text 'SchulistKautzer'])",
+        "time" : {
+          "start" : 1643905039951,
+          "stop" : 1643905040924,
+          "duration" : 973
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-search-result/ion-card-content/app-service-link\") should have(text 'Human Program Strategist (nqkk7uh49z)')",
+        "time" : {
+          "start" : 1643905040924,
+          "stop" : 1643905040967,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-search-result/ion-card-content/app-price\") get text()",
+        "time" : {
+          "start" : 1643905040967,
+          "stop" : 1643905041009,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "firstName",
+        "value" : "ShelbyMarcelle"
+      }, {
+        "name" : "lastName",
+        "value" : "SchulistKautzer"
+      }, {
+        "name" : "serviceName",
+        "value" : "Human Program Strategist (nqkk7uh49z)"
+      }, {
+        "name" : "servicePrice",
+        "value" : "4887439"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select a service",
+      "time" : {
+        "start" : 1643905041010,
+        "stop" : 1643905041299,
+        "duration" : 289
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search-result ion-card-content app-service-link a\") click()",
+        "time" : {
+          "start" : 1643905041205,
+          "stop" : 1643905041299,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "d2d9089f14bf28aa",
+        "name" : "Screenshot",
+        "source" : "d2d9089f14bf28aa.png",
+        "type" : "image/png",
+        "size" : 94322
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that the service data is correct",
+      "time" : {
+        "start" : 1643905041299,
+        "stop" : 1643905042275,
+        "duration" : 976
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-service-widget/app-service-title\") should have(text 'Human Program Strategist (nqkk7uh49z)')",
+        "time" : {
+          "start" : 1643905041299,
+          "stop" : 1643905042052,
+          "duration" : 753
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-price\") get text()",
+        "time" : {
+          "start" : 1643905042052,
+          "stop" : 1643905042088,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-duration-viewer\") should have(text '45')",
+        "time" : {
+          "start" : 1643905042089,
+          "stop" : 1643905042133,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-professional-card\") should have([text 'ShelbyMarcelle', text 'SchulistKautzer'])",
+        "time" : {
+          "start" : 1643905042133,
+          "stop" : 1643905042227,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget\") should have(text 'sw559g2jvszsvamf5a312p25qfkkkcvf7zub2r1n8nnmv9mkk8wj4a4fxhji76lu6on5m7cwi5dpmfm6kdnn7z7rzzpcoo15xup8t99tat8i6fmzn5chmfcvxum4af2s1pfzmd58izhr9ha1gsw26n5pl0jc76aigt6e12w7oeqqjnupryjt76ju1qrr5y7pk6pq89r7vca39i62p37moxipcli5on2ns8oll5jrf0qofgumczvdu0qkzn1z500hgrs2hi7lp6p3xlyr624fkiz9ghn00lz6c3t2reefjq87ikx6mwsv4rsdsct0dfg0t8pfky4yfwdsbupj0h39wg7w4qm8f27d96u4opgt34br0igpoh7mgxe2fdnujtcuu1wh6ccal2rvkd8uagzpl1nu9jn4skzyrpiasqenw6880ufo7u')",
+        "time" : {
+          "start" : 1643905042227,
+          "stop" : 1643905042275,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "serviceName",
+        "value" : "Human Program Strategist (nqkk7uh49z)"
+      }, {
+        "name" : "servicePrice",
+        "value" : "4887439"
+      }, {
+        "name" : "serviceDuration",
+        "value" : "45"
+      }, {
+        "name" : "firstName",
+        "value" : "ShelbyMarcelle"
+      }, {
+        "name" : "lastName",
+        "value" : "SchulistKautzer"
+      }, {
+        "name" : "serviceDescription",
+        "value" : "sw559g2jvszsvamf5a312p25qfkkkcvf7zub2r1n8nnmv9mkk8wj4a4fxhji76lu6on5m7cwi5dpmfm6kdnn7z7rzzpcoo15xup8t99tat8i6fmzn5chmfcvxum4af2s1pfzmd58izhr9ha1gsw26n5pl0jc76aigt6e12w7oeqqjnupryjt76ju1qrr5y7pk6pq89r7vca39i62p37moxipcli5on2ns8oll5jrf0qofgumczvdu0qkzn1z500hgrs2hi7lp6p3xlyr624fkiz9ghn00lz6c3t2reefjq87ikx6mwsv4rsdsct0dfg0t8pfky4yfwdsbupj0h39wg7w4qm8f27d96u4opgt34br0igpoh7mgxe2fdnujtcuu1wh6ccal2rvkd8uagzpl1nu9jn4skzyrpiasqenw6880ufo7u"
+      } ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1643905042500,
+        "stop" : 1643905042578,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "eb9b65889bfcd665",
+      "name" : "Last screenshot",
+      "source" : "eb9b65889bfcd665.png",
+      "type" : "image/png",
+      "size" : 69974
+    }, {
+      "uid" : "75ba706ab21fcfa5",
+      "name" : "Page source",
+      "source" : "75ba706ab21fcfa5.html",
+      "type" : "text/plain",
+      "size" : 148972
+    }, {
+      "uid" : "710a4aa86428455d",
+      "name" : "Browser console logs",
+      "source" : "710a4aa86428455d.bin",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "desktop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:desktopTests.smokeTests.PositiveTests]/[method:t00700()]"
+  }, {
+    "name" : "story",
+    "value" : "Search from the main page"
+  }, {
+    "name" : "owner",
+    "value" : "Kratakey"
+  }, {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-738"
+  }, {
+    "name" : "thread",
+    "value" : "3310@fv-az39-738.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testClass",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "t00700"
+  }, {
+    "name" : "suite",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Kratakey",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "3d6d12e6b0778657",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/14//#testresult/3d6d12e6b0778657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643904246397,
+          "stop" : 1643904257710,
+          "duration" : 11313
+        }
+      }, {
+        "uid" : "513c77ade3930913",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/13//#testresult/513c77ade3930913",
+        "status" : "broken",
+        "statusDetails" : "Invalid 'remote' parameter: ",
+        "time" : {
+          "start" : 1643903173920,
+          "stop" : 1643903174826,
+          "duration" : 906
+        }
+      }, {
+        "uid" : "d19756e36653d96c",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/11//#testresult/d19756e36653d96c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902265629,
+          "stop" : 1643902276027,
+          "duration" : 10398
+        }
+      }, {
+        "uid" : "5e8ba5c2c3774fa5",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/10//#testresult/5e8ba5c2c3774fa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803509487,
+          "stop" : 1643803520074,
+          "duration" : 10587
+        }
+      }, {
+        "uid" : "306f31d6c66de39a",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/9//#testresult/306f31d6c66de39a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643802167380,
+          "stop" : 1643802178581,
+          "duration" : 11201
+        }
+      }, {
+        "uid" : "1df1e504f517828",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/8//#testresult/1df1e504f517828",
+        "status" : "failed",
+        "statusDetails" : "Element not found {app-search-result}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801407452.9.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801407452.9.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-search-result\"}",
+        "time" : {
+          "start" : 1643801389208,
+          "stop" : 1643801408096,
+          "duration" : 18888
+        }
+      }, {
+        "uid" : "d0d65e622888dcc7",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/7//#testresult/d0d65e622888dcc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643800050419,
+          "stop" : 1643800061237,
+          "duration" : 10818
+        }
+      } ]
+    },
+    "tags" : [ "desktop" ]
+  },
+  "source" : "e955e6f05e25df50.json",
+  "parameterValues" : [ ]
+}
