@@ -3,13 +3,9 @@
 
 ###Пресеты через system.properties:
 
-* `./gradle clean test -Denvironment=local_chrome`
+* `./gradle clean test -Denvironment=local`
 
-* `./gradle clean test -Denvironment=local_safari`
-
-* `./gradle clean test -Denvironment=remote_chrome`
-
-* `./gradle clean test -Denvironment=remote_safari`
+* `./gradle clean test -Denvironment=remote`
 
 
 ###Запуск с параметрами, пример:
