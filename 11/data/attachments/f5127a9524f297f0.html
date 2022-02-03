@@ -1,0 +1,70 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset = UTF-8">
+    <script src="https://yastatic.net/jquery/2.2.3/jquery.min.js" crossorigin="anonymous"></script>
+
+    <link href="https://yastatic.net/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://yastatic.net/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <link type="text/css" href="https://yandex.st/highlightjs/8.0/styles/github.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/languages/bash.min.js"></script>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/languages/json.min.js"></script>
+    <script type="text/javascript" src="https://yandex.st/highlightjs/8.0/languages/xml.min.js"></script>
+    <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <pre><code>POST: https://app.maxibooking.ru:8000/en/api/accounts/services/</code></pre>
+</div>
+
+    <h4>Body</h4>
+    <div>
+        <pre><code>{
+    "duration": 45,
+    "is_enabled": true,
+    "service_type": "online",
+    "name": "Product Research Strategist (d0nz8a4a9et)",
+    "description": "yj0j9xbnntgiu0ftiwspiqjsfye9rgyzwjruqsqk3506y25zwd2fwiehufkvbr26b2ur795eu8m5rn45mn0rkqqihtnrmvh73rz1ftjyaef5locpqki322kv44vmzm7cp6q083eotb28v1pgqiaaqvwr05",
+    "is_auto_order_confirmation": true,
+    "is_base_schedule": true,
+    "professional": 5551
+}</code></pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>
+                <pre><code><b>Authorization</b>: Bearer oa63IzZdw7RPpBCHRdPWtgaG5KL30r</code></pre>
+            </div>
+            <div>
+                <pre><code><b>Accept</b>: application/json, text/plain, */*</code></pre>
+            </div>
+            <div>
+                <pre><code><b>Content-Type</b>: application/json</code></pre>
+            </div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        <pre><code>curl -v -X POST 'https://app.maxibooking.ru:8000/en/api/accounts/services/' -H 'Authorization: Bearer oa63IzZdw7RPpBCHRdPWtgaG5KL30r' -H 'Accept: application/json, text/plain, */*' -H 'Content-Type: application/json' -d '{
+    "duration": 45,
+    "is_enabled": true,
+    "service_type": "online",
+    "name": "Product Research Strategist (d0nz8a4a9et)",
+    "description": "yj0j9xbnntgiu0ftiwspiqjsfye9rgyzwjruqsqk3506y25zwd2fwiehufkvbr26b2ur795eu8m5rn45mn0rkqqihtnrmvh73rz1ftjyaef5locpqki322kv44vmzm7cp6q083eotb28v1pgqiaaqvwr05",
+    "is_auto_order_confirmation": true,
+    "is_base_schedule": true,
+    "professional": 5551
+}'</code></pre>
+    </div>
+</body>
+</html>

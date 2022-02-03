@@ -1,0 +1,273 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az39-738",
+    "children" : [ {
+      "name" : "3307@fv-az39-738.Test worker(11)",
+      "children" : [ {
+        "name" : "Remove master from favorites",
+        "uid" : "f004dac8ab7add01",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902234381,
+          "stop" : 1643902247408,
+          "duration" : 13027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Booking: today's date",
+        "uid" : "2719d5ea16d6359e",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643901766053,
+          "stop" : 1643901820175,
+          "duration" : 54122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add master to favorite from search results",
+        "uid" : "9e2ce88924884ba2",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902247411,
+          "stop" : 1643902265626,
+          "duration" : 18215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Master completes order: online",
+        "uid" : "5d966bab8c53c183",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902168272,
+          "stop" : 1643902181456,
+          "duration" : 13184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Post and check review add to favorites in the process",
+        "uid" : "b68b71bbdfbe7fee",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902181471,
+          "stop" : 1643902201602,
+          "duration" : 20131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Profile: delete address that was default",
+        "uid" : "6aaee8906f41e66",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643901942999,
+          "stop" : 1643901975091,
+          "duration" : 32092
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Full Positive User Registration - in order",
+        "uid" : "aab0be3ca507b17d",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902037340,
+          "stop" : 1643902063136,
+          "duration" : 25796
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Booking: time step, can't navigate back in time via arrows",
+        "uid" : "dbc7942b4595f620",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643901906304,
+          "stop" : 1643901942057,
+          "duration" : 35753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search page search: professional name",
+        "uid" : "db178530cc68193d",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902276030,
+          "stop" : 1643902287401,
+          "duration" : 11371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Booking: a service for another person",
+        "uid" : "f6efe31e7283bd5a",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643901861929,
+          "stop" : 1643901906294,
+          "duration" : 44365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Main page search: professional name",
+        "uid" : "d19756e36653d96c",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902265629,
+          "stop" : 1643902276027,
+          "duration" : 10398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Basic booking online",
+        "uid" : "d4afdf594348ebf0",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902125878,
+          "stop" : 1643902154397,
+          "duration" : 28519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'Best works' will show if filled",
+        "uid" : "fc438e8f7e051b34",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902002232,
+          "stop" : 1643902036423,
+          "duration" : 34191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check orders from user side",
+        "uid" : "9b766a603d3ea98",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902154403,
+          "stop" : 1643902168269,
+          "duration" : 13866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Chat test",
+        "uid" : "b0861cc054041fc4",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902218904,
+          "stop" : 1643902234376,
+          "duration" : 15472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Review answer",
+        "uid" : "b21cd1d756782c18",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902201606,
+          "stop" : 1643902218897,
+          "duration" : 17291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'Best works' will not show if professional doesn't have any",
+        "uid" : "e914471d83a6d027",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643901976030,
+          "stop" : 1643902002228,
+          "duration" : 26198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Booking: your own service for another person",
+        "uid" : "6a9513d8f82c0e33",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643901820396,
+          "stop" : 1643901861920,
+          "duration" : 41524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Basic Positive User Registration",
+        "uid" : "79375528ec94fa14",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902063140,
+          "stop" : 1643902092114,
+          "duration" : 28974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Basic positive service publishing, service location: Online",
+        "uid" : "396981494244352",
+        "parentUid" : "416888aebc95d202852eff9bdd5a0b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643902092117,
+          "stop" : 1643902125870,
+          "duration" : 33753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "416888aebc95d202852eff9bdd5a0b1a"
+    } ],
+    "uid" : "68c848aaf73ba5982cc25fcbd7da3cac"
+  } ],
+  "name" : "timeline"
+}

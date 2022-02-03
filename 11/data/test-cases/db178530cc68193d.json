@@ -1,0 +1,633 @@
+{
+  "uid" : "db178530cc68193d",
+  "name" : "Search page search: professional name",
+  "fullName" : "desktopTests.smokeTests.PositiveTests.t00701",
+  "historyId" : "46956e0d8520906da1b8772b75a00764",
+  "time" : {
+    "start" : 1643902276030,
+    "stop" : 1643902287401,
+    "duration" : 11371
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open URL: https://app.maxibooking.ru",
+      "time" : {
+        "start" : 1643902276977,
+        "stop" : 1643902279674,
+        "duration" : 2697
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://app.maxibooking.ru",
+        "time" : {
+          "start" : 1643902276977,
+          "stop" : 1643902279674,
+          "duration" : 2697
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Pop-up skip",
+      "time" : {
+        "start" : 1643902279674,
+        "stop" : 1643902281546,
+        "duration" : 1872
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#alert-1-sub-hdr\") should be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643902279874,
+          "stop" : 1643902279905,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") press escape()",
+        "time" : {
+          "start" : 1643902280905,
+          "stop" : 1643902280978,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"ion-alert\") should not be([visible, 10 s.])",
+        "time" : {
+          "start" : 1643902280978,
+          "stop" : 1643902281346,
+          "duration" : 368
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Change language to English",
+      "time" : {
+        "start" : 1643902281546,
+        "stop" : 1643902282095,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='flag-menu'].filter(visible)[0]\") get text()",
+        "time" : {
+          "start" : 1643902282046,
+          "stop" : 1643902282095,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Menu > Search",
+      "time" : {
+        "start" : 1643902282095,
+        "stop" : 1643902283380,
+        "duration" : 1285
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[menu='main-menu'].filter(visible)[0]\") click()",
+        "time" : {
+          "start" : 1643902282395,
+          "stop" : 1643902282594,
+          "duration" : 199
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[id='main-menu.search']\") scroll into view(true)",
+        "time" : {
+          "start" : 1643902282894,
+          "stop" : 1643902282927,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[id='main-menu.search']\") get wrapped element()",
+          "time" : {
+            "start" : 1643902282894,
+            "stop" : 1643902282918,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"[id='main-menu.search']\") click()",
+        "time" : {
+          "start" : 1643902282927,
+          "stop" : 1643902283080,
+          "duration" : 153
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Search page: Search without quotes WilfordHerb AltenwerthErnser",
+      "time" : {
+        "start" : 1643902283380,
+        "stop" : 1643902284893,
+        "duration" : 1513
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search form input\") set value(WilfordHerb AltenwerthErnser)",
+        "time" : {
+          "start" : 1643902283381,
+          "stop" : 1643902283576,
+          "duration" : 195
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-search form input\") press enter()",
+        "time" : {
+          "start" : 1643902284576,
+          "stop" : 1643902284620,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "f9ced4515f704b0a",
+        "name" : "Screenshot",
+        "source" : "f9ced4515f704b0a.png",
+        "type" : "image/png",
+        "size" : 129654
+      } ],
+      "parameters" : [ {
+        "name" : "searchQuery",
+        "value" : "WilfordHerb AltenwerthErnser"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that the search result is correct",
+      "time" : {
+        "start" : 1643902284893,
+        "stop" : 1643902285808,
+        "duration" : 915
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search-result/ion-card-content/app-professional-card\") should have([text 'WilfordHerb', text 'AltenwerthErnser'])",
+        "time" : {
+          "start" : 1643902284893,
+          "stop" : 1643902285725,
+          "duration" : 832
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-search-result/ion-card-content/app-service-link\") should have(text 'Forward Implementation Agent (snan14eb8)')",
+        "time" : {
+          "start" : 1643902285725,
+          "stop" : 1643902285765,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-search-result/ion-card-content/app-price\") get text()",
+        "time" : {
+          "start" : 1643902285765,
+          "stop" : 1643902285808,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "firstName",
+        "value" : "WilfordHerb"
+      }, {
+        "name" : "lastName",
+        "value" : "AltenwerthErnser"
+      }, {
+        "name" : "serviceName",
+        "value" : "Forward Implementation Agent (snan14eb8)"
+      }, {
+        "name" : "servicePrice",
+        "value" : "7704457"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select a service",
+      "time" : {
+        "start" : 1643902285808,
+        "stop" : 1643902286137,
+        "duration" : 329
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-search-result ion-card-content app-service-link a\") click()",
+        "time" : {
+          "start" : 1643902286019,
+          "stop" : 1643902286137,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "ff57ce2ae4cae089",
+        "name" : "Screenshot",
+        "source" : "ff57ce2ae4cae089.png",
+        "type" : "image/png",
+        "size" : 92914
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that the service data is correct",
+      "time" : {
+        "start" : 1643902286137,
+        "stop" : 1643902287101,
+        "duration" : 964
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"app-service-widget/app-service-title\") should have(text 'Forward Implementation Agent (snan14eb8)')",
+        "time" : {
+          "start" : 1643902286137,
+          "stop" : 1643902286909,
+          "duration" : 772
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-price\") get text()",
+        "time" : {
+          "start" : 1643902286909,
+          "stop" : 1643902286940,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-duration-viewer\") should have(text '45')",
+        "time" : {
+          "start" : 1643902286940,
+          "stop" : 1643902286969,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget/app-professional-card\") should have([text 'WilfordHerb', text 'AltenwerthErnser'])",
+        "time" : {
+          "start" : 1643902286969,
+          "stop" : 1643902287047,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"app-service-widget\") should have(text 'hefbe4b84dxsen1pc4dlzvm0y2rj5w0zgfm4kiu9esv9tdu5njxkzbcom6gutttmrrwqcdeplutkfm5z8y939hwoutv7umrmvwkyjscjr0iahcy5rij9r3whtborqysnf1r8yhizpkzjroxmp8lf2z6lox6t7fut8ihzbqm8hx7udui6ylzwey0pmm2vnzn7p3ubzvn02zkj3m1l4cn13nlaw73xc7tz69d6mmpm5i78tbvv6aeuh85iluzw3br8c3a501smxrnyjneslafhwnlixh7jxz6vjebjw6pwf1y4s8csrw0holz357ijkegiloqdsneke4x7imwnow28sy5f0legxt3qk7o')",
+        "time" : {
+          "start" : 1643902287047,
+          "stop" : 1643902287101,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "serviceName",
+        "value" : "Forward Implementation Agent (snan14eb8)"
+      }, {
+        "name" : "servicePrice",
+        "value" : "7704457"
+      }, {
+        "name" : "serviceDuration",
+        "value" : "45"
+      }, {
+        "name" : "firstName",
+        "value" : "WilfordHerb"
+      }, {
+        "name" : "lastName",
+        "value" : "AltenwerthErnser"
+      }, {
+        "name" : "serviceDescription",
+        "value" : "hefbe4b84dxsen1pc4dlzvm0y2rj5w0zgfm4kiu9esv9tdu5njxkzbcom6gutttmrrwqcdeplutkfm5z8y939hwoutv7umrmvwkyjscjr0iahcy5rij9r3whtborqysnf1r8yhizpkzjroxmp8lf2z6lox6t7fut8ihzbqm8hx7udui6ylzwey0pmm2vnzn7p3ubzvn02zkj3m1l4cn13nlaw73xc7tz69d6mmpm5i78tbvv6aeuh85iluzw3br8c3a501smxrnyjneslafhwnlixh7jxz6vjebjw6pwf1y4s8csrw0holz357ijkegiloqdsneke4x7imwnow28sy5f0legxt3qk7o"
+      } ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1643902287325,
+        "stop" : 1643902287401,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4e94797edde248c2",
+      "name" : "Last screenshot",
+      "source" : "4e94797edde248c2.png",
+      "type" : "image/png",
+      "size" : 69138
+    }, {
+      "uid" : "3c768d55b6ad82a5",
+      "name" : "Page source",
+      "source" : "3c768d55b6ad82a5.html",
+      "type" : "text/plain",
+      "size" : 171639
+    }, {
+      "uid" : "aae816fe9af07ea",
+      "name" : "Browser console logs",
+      "source" : "aae816fe9af07ea.txt",
+      "type" : "text/plain",
+      "size" : 1132
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 29,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "desktop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:desktopTests.smokeTests.PositiveTests]/[method:t00701()]"
+  }, {
+    "name" : "story",
+    "value" : "Search from the search page"
+  }, {
+    "name" : "owner",
+    "value" : "Kratakey"
+  }, {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-738"
+  }, {
+    "name" : "thread",
+    "value" : "3307@fv-az39-738.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testClass",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "t00701"
+  }, {
+    "name" : "suite",
+    "value" : "desktopTests.smokeTests.PositiveTests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Kratakey",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "dc7261761c81a82f",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/10//#testresult/dc7261761c81a82f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643803520076,
+          "stop" : 1643803531866,
+          "duration" : 11790
+        }
+      }, {
+        "uid" : "3294db389ac10e7d",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/9//#testresult/3294db389ac10e7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643802178584,
+          "stop" : 1643802190938,
+          "duration" : 12354
+        }
+      }, {
+        "uid" : "20b4b07128cb98a",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/8//#testresult/20b4b07128cb98a",
+        "status" : "failed",
+        "statusDetails" : "Element not found {app-search-result}\nExpected: exist\nScreenshot: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801427814.10.png\nPage source: file:/home/runner/work/QAG25-diploma/QAG25-diploma/build/reports/tests/1643801427814.10.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"app-search-result\"}",
+        "time" : {
+          "start" : 1643801408099,
+          "stop" : 1643801428447,
+          "duration" : 20348
+        }
+      }, {
+        "uid" : "eb34d25b5e25a99f",
+        "reportUrl" : "https://Kratakey.github.io/QAG25-diploma/7//#testresult/eb34d25b5e25a99f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643800061240,
+          "stop" : 1643800072987,
+          "duration" : 11747
+        }
+      } ]
+    },
+    "tags" : [ "desktop" ]
+  },
+  "source" : "db178530cc68193d.json",
+  "parameterValues" : [ ]
+}
