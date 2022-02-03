@@ -1,0 +1,369 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Booking",
+    "children" : [ {
+      "name" : "https://redmine.maxi-booking.ru/issues/4857",
+      "children" : [ {
+        "name" : "Booking: today's date",
+        "uid" : "127a7bf5dccacd27",
+        "parentUid" : "e7e0d6c61ac43570bfb5a2640bda14f2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903083056,
+          "stop" : 1643903099810,
+          "duration" : 16754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e7e0d6c61ac43570bfb5a2640bda14f2"
+    }, {
+      "name" : "https://redmine.maxi-booking.ru/issues/4764",
+      "children" : [ {
+        "name" : "Booking: your own service for another person",
+        "uid" : "76e84429b7c8d69f",
+        "parentUid" : "9c62032dfd3bade7239c8bec409cc197",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903099924,
+          "stop" : 1643903110126,
+          "duration" : 10202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Booking: a service for another person",
+        "uid" : "ce5a994a3ae33166",
+        "parentUid" : "9c62032dfd3bade7239c8bec409cc197",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903110148,
+          "stop" : 1643903125020,
+          "duration" : 14872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c62032dfd3bade7239c8bec409cc197"
+    }, {
+      "name" : "https://redmine.maxi-booking.ru/issues/4929",
+      "children" : [ {
+        "name" : "Booking: time step, can't navigate back in time via arrows",
+        "uid" : "e991b41c1fdd009e",
+        "parentUid" : "8532acf8076170b3074370b266ec1ea7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903125028,
+          "stop" : 1643903135262,
+          "duration" : 10234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8532acf8076170b3074370b266ec1ea7"
+    }, {
+      "name" : "Service booking",
+      "children" : [ {
+        "name" : "Basic booking online",
+        "uid" : "19299dc927d15ae1",
+        "parentUid" : "0d2065fa6f60223f199bbbacfbaac876",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903165959,
+          "stop" : 1643903166955,
+          "duration" : 996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d2065fa6f60223f199bbbacfbaac876"
+    } ],
+    "uid" : "9cc730940031b37aa4fa938899d8c2fa"
+  }, {
+    "name" : "Profile",
+    "children" : [ {
+      "name" : "https://redmine.maxi-booking.ru/issues/4844",
+      "children" : [ {
+        "name" : "Profile: delete address that was default",
+        "uid" : "e9e28226398cef82",
+        "parentUid" : "815f748c8d79c7014fc18ca5eec5b4d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903136250,
+          "stop" : 1643903141282,
+          "duration" : 5032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "815f748c8d79c7014fc18ca5eec5b4d7"
+    } ],
+    "uid" : "d7f9de5a628df3841073fad21edb5903"
+  }, {
+    "name" : "Search",
+    "children" : [ {
+      "name" : "https://redmine.maxi-booking.ru/issues/4932",
+      "children" : [ {
+        "name" : "'Best works' will not show if professional doesn't have any",
+        "uid" : "be2f7bb3cb817915",
+        "parentUid" : "74b7a830daa17d66c7f2392adbb008b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903142200,
+          "stop" : 1643903152385,
+          "duration" : 10185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'Best works' will show if filled",
+        "uid" : "f5c0bd3d524c3f4e",
+        "parentUid" : "74b7a830daa17d66c7f2392adbb008b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903152395,
+          "stop" : 1643903162137,
+          "duration" : 9742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74b7a830daa17d66c7f2392adbb008b2"
+    }, {
+      "name" : "Search from the main page",
+      "children" : [ {
+        "name" : "Main page search: professional name",
+        "uid" : "513c77ade3930913",
+        "parentUid" : "bf936417a8c7ddf80636bd8ad4dec358",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903173920,
+          "stop" : 1643903174826,
+          "duration" : 906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf936417a8c7ddf80636bd8ad4dec358"
+    }, {
+      "name" : "Search from the search page",
+      "children" : [ {
+        "name" : "Search page search: professional name",
+        "uid" : "36b977ea02747b0",
+        "parentUid" : "0c0854a2ae78b567eb6c5b08cb3c887a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903174831,
+          "stop" : 1643903175862,
+          "duration" : 1031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c0854a2ae78b567eb6c5b08cb3c887a"
+    } ],
+    "uid" : "b4c391a54a6b5af78881245cab8481cb"
+  }, {
+    "name" : "User Registration",
+    "children" : [ {
+      "name" : "Full registration",
+      "children" : [ {
+        "name" : "Full Positive User Registration - in order",
+        "uid" : "e028a1db68acc655",
+        "parentUid" : "2186b80e4918a9eaea4cca81bb2e0bb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903163096,
+          "stop" : 1643903164049,
+          "duration" : 953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2186b80e4918a9eaea4cca81bb2e0bb6"
+    }, {
+      "name" : "Minimal registration",
+      "children" : [ {
+        "name" : "Basic Positive User Registration",
+        "uid" : "26d8d78d54a9fb22",
+        "parentUid" : "232fd6b8c31052dde25adb344253b2bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903164069,
+          "stop" : 1643903165013,
+          "duration" : 944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "232fd6b8c31052dde25adb344253b2bf"
+    } ],
+    "uid" : "865cfacb3500a558f339449c1e9ef3b9"
+  }, {
+    "name" : "Service Publish",
+    "children" : [ {
+      "name" : "Minimal service publication",
+      "children" : [ {
+        "name" : "Basic positive service publishing, service location: Online",
+        "uid" : "7f057232bf8fc05",
+        "parentUid" : "f0c75bde7d6bebc8f595fb3666d94137",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903165016,
+          "stop" : 1643903165956,
+          "duration" : 940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0c75bde7d6bebc8f595fb3666d94137"
+    } ],
+    "uid" : "d98a3daa1e5e557a657f9fa1546c9577"
+  }, {
+    "name" : "Orders",
+    "children" : [ {
+      "name" : "Order check",
+      "children" : [ {
+        "name" : "Check orders from user side",
+        "uid" : "386b0ff4e6093510",
+        "parentUid" : "b0123616cfcc4c5747e6deb6f56a01a4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903166964,
+          "stop" : 1643903168067,
+          "duration" : 1103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Master completes order: online",
+        "uid" : "fa2e514b2d0cfc9a",
+        "parentUid" : "b0123616cfcc4c5747e6deb6f56a01a4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903168070,
+          "stop" : 1643903169092,
+          "duration" : 1022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0123616cfcc4c5747e6deb6f56a01a4"
+    } ],
+    "uid" : "591567a1d65d15a76c2a50f520b81dbd"
+  }, {
+    "name" : "Reviews",
+    "children" : [ {
+      "name" : "Review check",
+      "children" : [ {
+        "name" : "Post and check review add to favorites in the process",
+        "uid" : "f2bb7cc2dfec44ee",
+        "parentUid" : "3a63b92c79356772c58e4efec13f4501",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903169100,
+          "stop" : 1643903170096,
+          "duration" : 996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a63b92c79356772c58e4efec13f4501"
+    }, {
+      "name" : "Review master answers",
+      "children" : [ {
+        "name" : "Review answer",
+        "uid" : "f54e178eea59bf23",
+        "parentUid" : "19cbda758ba4ada873b195a16017ad0a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903170099,
+          "stop" : 1643903171086,
+          "duration" : 987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19cbda758ba4ada873b195a16017ad0a"
+    } ],
+    "uid" : "37c4365cbd90c441bee5701be6e7c8a5"
+  }, {
+    "name" : "Messages",
+    "children" : [ {
+      "name" : "Chatting tests",
+      "children" : [ {
+        "name" : "Chat test",
+        "uid" : "42cacb752e66b440",
+        "parentUid" : "d415bc5f3e6c667b15874787aaa39ae4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903171089,
+          "stop" : 1643903172067,
+          "duration" : 978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d415bc5f3e6c667b15874787aaa39ae4"
+    } ],
+    "uid" : "1e066aec5cc90efe701a1ed213b445d0"
+  }, {
+    "name" : "Favorites",
+    "children" : [ {
+      "name" : "Remove master from favorites",
+      "children" : [ {
+        "name" : "Remove master from favorites",
+        "uid" : "8f87fc03a42fa0c6",
+        "parentUid" : "253a24bf867bf16733d287592e6f9bf5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903172072,
+          "stop" : 1643903172976,
+          "duration" : 904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "253a24bf867bf16733d287592e6f9bf5"
+    }, {
+      "name" : "Add master to favorites",
+      "children" : [ {
+        "name" : "Add master to favorite from search results",
+        "uid" : "695d3df16ec094a3",
+        "parentUid" : "8837b9724fdacbe8bb43d900d0039f29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643903172982,
+          "stop" : 1643903173917,
+          "duration" : 935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8837b9724fdacbe8bb43d900d0039f29"
+    } ],
+    "uid" : "c898ee07c2878a01384550f03ce12ecb"
+  } ],
+  "name" : "behaviors"
+}
